@@ -1,0 +1,2731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<?xml-stylesheet type="text/xsl" href="codifica.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it">
+  
+  <teiHeader xml:lang="it">
+    
+    <fileDesc>
+      <titleStmt>
+        <title level="j" type="main">La Rassegna Settimanale</title>
+        <title level="j" type="sub">di politica, scienze, lettere ed arti</title>
+        
+        <respStmt>
+          <resp>Fondatori:</resp>
+          <persName xml:id="P_LF" corresp="https://it.wikipedia.org/wiki/Leopoldo_Franchetti">Leopoldo Franchetti</persName>
+          <persName xml:id="P_SS" corresp="https://it.wikipedia.org/wiki/Sidney_Sonnino">Sidney Sonnino</persName>
+        </respStmt>
+        
+      </titleStmt>
+      
+      <editionStmt>
+        <edition><date when="2026-04">Aprile 2026</date>
+        </edition>
+        <respStmt>
+          <resp>Coordinatore:</resp>
+          <persName xml:id="P_AMDG">Angelo Mario Del Grosso</persName>
+        </respStmt>
+      </editionStmt>
+      
+      <extent>
+        <measure type="pages">10</measure>
+        <measure type="words">4200 ca</measure>
+      </extent>
+      
+      <publicationStmt>
+        <publisher>Università di Pisa</publisher>
+        <pubPlace>Pisa</pubPlace>
+        <date when="2026">2026</date>
+        <availability status="free">
+          <p>Contenuto ad accesso libero</p>
+        </availability>
+      </publicationStmt>
+      
+      <seriesStmt>
+        <title xml:id="title">La Rassegna Settimanale di Politica, Scienze, Lettere ed Arti</title>
+        <respStmt>
+          <resp>Codifica del testo a cura di:</resp>
+          <persName xml:id="P_NV">Nicole Vaselli</persName>
+        </respStmt>
+        <biblScope unit="volume">7</biblScope>
+        <biblScope unit="chapter">70, 77, 78, 80</biblScope>
+      </seriesStmt>
+      
+      <notesStmt>
+        <note>Le liste strutturate di persone, luoghi e organizzazioni sono inserite nel <gi>profileDesc</gi> secondo le linee guida TEI.</note>
+      </notesStmt>
+      
+      <sourceDesc>
+        <biblStruct xml:lang="it">
+          <monogr>
+            <title level="j" type="main">La Rassegna Settimanale</title>
+            <title level="j" type="sub">di politica, scienze, lettere ed arti</title>
+            <imprint>
+              <pubPlace ref="#S_RO">Roma</pubPlace>
+              <publisher corresp="https://it.wikipedia.org/wiki/Barbera_(casa_editrice)">Casa Editrice Barbera</publisher>
+              <date when="1881">1881</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        
+        <msDesc>
+          <msIdentifier>
+            <country>Italia</country>
+            <settlement>Roma</settlement>
+            <repository>Rassegna Settimanale</repository>
+          </msIdentifier>
+          
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="Paper">
+                <support>Fogli di carta</support>
+                <condition>Le pagine risultano facilmente leggibili nonostante i segni del tempo e il forte contrasto dato dalla scannerizzazione di esse. Ricorrenti nelle pagine sono piccole macchie nere e qualche accenno di deteriorazione, specialmente ai margini.
+                </condition>
+              </supportDesc>
+              <layoutDesc>
+                <layout>Le pagine si presentano divise in due colonne.</layout>
+              </layoutDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+      
+    </fileDesc>
+    
+    <!-- EncodingDesc-->
+    
+    <encodingDesc>
+      <projectDesc>
+        <p>Sono state effettuate le codifiche di cinque sezioni della Rassegna settimanale: due articoli, due entrate della sezione Bibliografia e due entrate della sezione Notizie, nello stesso fascicolo.</p>
+        
+        <p>Gli articoli selezionati sono:
+          <list>
+            <item>
+              <title level="a" type="main">La carità di un barone dopo un secolo e mezzo di storia italiana;</title>
+            </item>
+            <item>
+              <title level="a" type="main">Un povero cane;</title>
+            </item>
+            <item>
+              <title level="a" type="main">Bibliografia - Mario Rapisardi;</title>
+            </item>
+            <item>
+              <title level="a" type="main">Bibliografia - Antonio Manno;</title>
+            </item>
+            <item>
+              <title level="a" type="main">Notizie</title>
+            </item>
+          </list>
+        </p>
+      </projectDesc>
+    </encodingDesc>
+    
+    <!-- ProfileDesc -->
+    <profileDesc>
+      
+      <particDesc>
+        <!-- PERSONE-->
+        
+        <!-- BARONE -->
+        <listPerson type="LaCaritaBarone">
+          
+          <person xml:id="P_Bardi" corresp="https://it.wikipedia.org/wiki/Bardi_(famiglia)">
+            <persName>Bardi</persName>
+          </person>
+          
+          <person xml:id="P_MS" corresp="https://it.wikipedia.org/wiki/Salimbeni_(famiglia)">
+            <persName>Margherita Salimbeni</persName>
+          </person>
+          
+          <person xml:id="P_Alberti" corresp="https://www.treccani.it/enciclopedia/alberti_(Enciclopedia-Dantesca)/">
+            <persName>Alberti</persName>
+          </person>
+          
+          <person xml:id="P_DA" corresp="https://it.wikipedia.org/wiki/Dante_Alighieri">
+            <persName>Dante</persName>
+          </person>
+          
+          <person xml:id="P_RO" corresp="NO INFO">
+            <persName>Conte Rodolfo D'Alessandro</persName>
+          </person>
+          
+          <person xml:id="P_PL" corresp="https://it.wikipedia.org/wiki/Leopoldo_II_d%27Asburgo-Lorena">
+            <persName>Pietro Leopoldo</persName>
+          </person>
+          
+          <person xml:id="P_SN" corresp="https://it.wikipedia.org/wiki/San_Nicola_di_Bari">
+            <persName>S. Niccolò</persName>
+          </person>
+          
+          <person xml:id="P_Carlo" corresp="NO INFO">
+            <persName>Carlo</persName>
+          </person>
+          
+          <person xml:id="P_Flaminio" corresp="NO INFO">
+            <persName>Flaminio</persName>
+          </person>
+          
+          <person xml:id="P_SI" corresp="NO INFO">
+            <persName>Senatore Ippoliti</persName>
+          </person>
+          
+          <person xml:id="P_DS" corresp="NO INFO">
+            <persName>DeSpighi</persName>
+          </person>
+          
+          <person xml:id="P_CA" corresp="NO INFO">
+            <persName>Conte Abate</persName>
+          </person>
+          
+          <person xml:id="P_GDB" corresp ="https://it.wikipedia.org/wiki/Bardi_(famiglia)">
+            <persName> Gualterotto <choice><seg><orig>de'</orig><reg>dei</reg></seg></choice> Bardi</persName>
+          </person>     
+          
+          <person xml:id="P_G2" corresp="https://it.wikipedia.org/wiki/Giuseppe_II_d%27Asburgo-Lorena">
+            <persName>Giuseppe II</persName>
+          </person>
+          
+          <person xml:id="P_F2" corresp="https://it.wikipedia.org/wiki/Ferdinando_II_delle_Due_Sicilie">
+            <persName>Ferdinando II</persName>
+          </person>
+          
+          <person xml:id="P_Bona" corresp="https://it.wikipedia.org/wiki/Napoleone_Bonaparte">
+            <persName>Bonaparte</persName>
+          </person>
+          
+          <person xml:id="P_Caprara" corresp="https://www.treccani.it/enciclopedia/caprara_(Enciclopedia-Italiana)/">
+            <persName>Caprara</persName>
+          </person>
+          
+          <person xml:id="P_Fenini" corresp="NO INFO">
+            <persName>Fenini</persName>
+          </person>
+          
+          <person xml:id="P_Gali" corresp="NO INFO">
+            <persName>Galimberti</persName>
+          </person>
+          
+          <person xml:id="P_JB" corresp="NO INFO">
+            <persName>Jacopo Bigiarolli</persName>
+          </person>
+          
+          <person xml:id="P_Collini" corresp="NO INFO">
+            <persName>Collini</persName>
+          </person>
+          
+          <person xml:id="P_AS" corresp="NO INFO">
+            <persName>Angelo Sassoli</persName>
+          </person>
+          
+          <person xml:id="P_TM" corresp="NO INFO">
+            <persName>Tommaso Masi</persName>
+          </person>
+          
+          <person xml:id="P_GV" corresp="NO INFO">
+            <persName>Giovanni Vicini</persName>
+          </person>
+          
+          <person xml:id="P_F3" corresp="https://it.wikipedia.org/wiki/Ferdinando_III_di_Toscana">
+            <persName>Ferdinando III</persName>
+          </person>
+          
+          <person xml:id="P_Rossi" corresp="NO INFO">
+            <persName>Rossi</persName>
+          </person>
+          
+          <person xml:id="P_Tocca" corresp="NO INFO">
+            <persName>Toccafondi</persName>
+          </person>
+          
+          <person xml:id="P_Fedeli" corresp="NO INFO">
+            <persName>Fedeli</persName>
+          </person>
+          
+          <person xml:id="P_Badini" corresp="https://it.wikipedia.org/wiki/Alfonso_Badini_Confalonieri_(politico)">
+            <persName>Alfonso Badini Confalonieri</persName>
+          </person>
+          
+          <person xml:id="P_Franchetti" corresp="https://it.wikipedia.org/wiki/Augusto_Franchetti">
+            <persName>Augusto Franchetti</persName>
+          </person>
+          
+        </listPerson>
+        
+        <!--POVERO CANE-->
+        <listPerson type="PoveroCane">
+          
+          <person xml:id="P_Rocco">
+            <persName>Rocco</persName>
+          </person>
+          
+          <person xml:id="P_Giacotto">
+            <persName>Giacotto</persName>
+          </person>
+          
+          <person xml:id="P_Basolone">
+            <persName>Basolone</persName>
+          </person>
+          
+          <person xml:id="P_Celeste">
+            <persName>Celeste</persName>
+          </person>
+          
+          <person xml:id="P_Giuditta">
+            <persName>Giuditta</persName>
+          </person>
+          
+          <person xml:id="P_Pippo">
+            <persName>Pippo</persName>
+          </person>
+          
+          <person xml:id="P_Pattina">
+            <persName>Pattina</persName>
+          </person>
+          
+          <person xml:id="P_Battistone">
+            <persName>Battistone</persName>
+          </person>
+          
+          <person xml:id="P_Pita">
+            <persName>Pitagora</persName>
+          </person>
+          
+          <person xml:id="P_EDM" corresp="https://it.wikipedia.org/wiki/Emilio_De_Marchi_(scrittore)">
+            <persName>Emilio de Marchi</persName>
+          </person>
+        </listPerson>
+        <!--BIBLIOGRAFIA-->
+        <listPerson type="Bibliografia">
+          
+          <person xml:id="P_MarioRapi" corresp="https://it.wikipedia.org/wiki/Mario_Rapisardi">
+            <persName>Mario Rapisardi</persName>
+          </person>
+          
+          <person xml:id="P_Catullo" corresp="https://it.wikipedia.org/wiki/Gaio_Valerio_Catullo">
+            <persName>Catullo</persName>
+          </person>
+          
+          <person xml:id="P_Lucrezio" corresp="https://it.wikipedia.org/wiki/Tito_Lucrezio_Caro">
+            <persName>Lucrezio</persName>
+          </person>
+          
+          <person xml:id="P_DA1" corresp="https://it.wikipedia.org/wiki/Dante_Alighieri">
+            <persName>Dante</persName>
+          </person>
+          
+          <person xml:id="P_Manz" corresp="https://it.wikipedia.org/wiki/Alessandro_Manzoni">
+            <persName>Manzoni</persName>
+          </person>
+          
+          <person xml:id="P_AntoManno" corresp="https://it.wikipedia.org/wiki/Antonio_Manno_(politico)">
+            <persName>Antonio Manno</persName>
+          </person>
+          
+          <person xml:id="P_LLodi" corresp="https://it.wikipedia.org/wiki/Luigi_Lodi">
+            <persName>Luigi Lodi</persName>
+          </person>
+          
+          <person xml:id="P_GGampori" corresp="https://it.wikipedia.org/wiki/Giuseppe_Campori">
+            <persName>Giuseppe Gampori</persName>
+          </person>
+          
+          <person xml:id="P_Campanella" corresp="https://it.wikipedia.org/wiki/Tommaso_Campanella">
+            <persName>Campanella</persName>
+          </person>
+          
+          <person xml:id="P_Cresci" corresp="https://www.treccani.it/enciclopedia/migliore-cresci_(Dizionario-Biografico)/">
+            <persName>Cresci Migliore</persName>
+          </person>
+          
+          <person xml:id="P_Marchetti" corresp="https://www.treccani.it/enciclopedia/alessandro-marchetti_res-ecf2ebbb-477d-11dd-a3be-0016357f4ed7/">
+            <persName>Alessandro Marchetti</persName>
+          </person>
+          
+          <person xml:id="P_AGiusti" corresp="https://www.treccani.it/enciclopedia/alessandro-giusti_(Dizionario-Biografico)/">
+            <persName>Alessandro Giusti</persName>
+          </person>
+          
+          <person xml:id="P_Mazzarino" corresp="https://www.treccani.it/enciclopedia/giulio-raimondo-mazzarino/">
+            <persName>Giulio Raimondo Mazzarino</persName>
+          </person>
+          
+          <person xml:id="P_PDV" corresp="https://it.wikipedia.org/wiki/Pietro_della_Valle">
+            <persName>Pietro Della Valle</persName>
+          </person>
+          
+          <person xml:id="P_BDRiva" corresp="https://it.wikipedia.org/wiki/Bonvesin_de_la_Riva">
+            <persName>Bonvesin da Riva</persName>
+          </person>
+          
+        </listPerson>
+        
+        <!--NOTIZIE-->     
+        <listPerson type="Notizie">
+          
+          <person xml:id="P_RP" corresp="https://www.deutsche-biographie.de/sfz94431.html">
+            <persName>R. Peiper</persName>
+          </person>
+          
+          <person xml:id="P_Au" corresp="https://it.wikipedia.org/wiki/Decimo_Magno_Ausonio">
+            <persName>Ausonio</persName>
+          </person>
+          
+          <person xml:id="P_FS" corresp="NO INFO">
+            <persName>F. Seiler</persName>
+          </person>
+          
+          <person xml:id="P_GMerula" corresp="https://it.wikipedia.org/wiki/Giorgio_Merula">
+            <persName>Giorgio Merula</persName>
+          </person>
+          
+          <person xml:id="P_EDW" corresp="NO INFO">
+            <persName>Edoardo di Wieterscheim</persName>
+          </person>
+          
+          <person xml:id="P_FB" corresp="https://eb.wikipedia.org/wiki/Felix_Dahn">
+            <persName>Felice Dahn</persName>
+          </person>
+          
+        </listPerson> 
+        
+        
+        <!-- ORGANIZZAZIONI -->
+        <!-- BARONE -->
+        <listOrg type="LaCaritaBarone">
+          
+          <org xml:id="O_CDV" corresp="https://www.comune.vernio.po.it/">
+            <orgName>Comune di Vernio</orgName>
+          </org>
+          
+          <org xml:id="O_CDDDF" corresp="https://www.duomofirenze.it/capitolo-metropolitano-fiorentino-sede/">
+            <orgName>Capitolo del Duomo Di Firenze</orgName>
+          </org>
+          
+          <org xml:id="O_CDF" corresp="https://www.comune.firenze.it/">
+            <orgName>Comune di Firenze</orgName>
+          </org>
+          
+          <org xml:id="O_Trib" corresp="https://it.wikipedia.org/wiki/Tribunale">
+            <orgName>Tribunali</orgName>
+          </org>
+          
+          <org xml:id="O_CDP" corresp="https://siusa-archivi.cultura.gov.it/">
+            <orgName>Capitolo di Pistoia</orgName>
+          </org>
+          
+          <org xml:id="O_CA" corresp="https://www.sapere.it/enciclopedia/Hofkammer.html">
+            <orgName>Camera aulica</orgName>
+          </org>
+          
+          <org xml:id="O_RF" corresp="https://it.wikipedia.org/wiki/Repubblica_di_Firenze">
+            <orgName>Repubblica fiorentina</orgName>
+          </org>
+          
+          <org xml:id="O_SI" corresp="https://it.wikipedia.org/wiki/Sacro_Romano_Impero">
+            <orgName>sacro Impero</orgName>
+          </org>
+          
+          <org xml:id="O_DDR" corresp="https://it.wikipedia.org/wiki/Dieta_di_Ratisbona">
+            <orgName>Dieta di Ratisbona</orgName>
+          </org>
+          
+          <org xml:id="O_DE" corresp="https://it.wikipedia.org/wiki/Direttorio">
+            <orgName>Direttorio esecutivo</orgName>
+          </org>
+          
+          <org xml:id="O_DR" corresp="https://it.wikipedia.org/wiki/Dipartimento_del_Reno">
+            <orgName>Dipartimento del Reno</orgName>
+          </org>
+          
+          <org xml:id="O_LP" corresp="https://it.wikipedia.org/wiki/Legione_polacca">
+            <orgName>legione polacca</orgName>
+          </org>
+          
+          <org xml:id="O_GNBV" corresp="https://www.storiaememoriadibologna.it/archivio/organizzazioni/guardia-nazionale-di-bologna">
+            <orgName>guardia nazionale di Bologna e Vergato</orgName>
+          </org>
+          
+          <org xml:id="O_CSN" corresp="https://it.wikipedia.org/wiki/Compagnia_di_San_Niccol%C3%B2_del_Ceppo">
+            <orgName>Confraternita di S. Niccolò</orgName>
+          </org>
+          
+          <org xml:id="O_DC" corresp="https://it.wikipedia.org/wiki/Repubblica_Cisalpina">
+            <orgName>Direttorio Cisalpino</orgName>
+          </org>
+          
+          <org xml:id="O_MD" corresp="https://www.treccani.it/enciclopedia/la-municipalita-democratica_(Storia-di-Venezia)/"> 
+            <orgName>Municipalità democratica</orgName>
+          </org>
+          
+          <org xml:id="O_PIA" corresp="https://ilkiblog.blogspot.com/2019/01/1810-le-ordinanze-prefettizie-del.html">
+            <orgName>Prefettura imperiale dell'Arno</orgName>
+          </org>
+          
+          <org xml:id="O_CDVienna" corresp="https://it.wikipedia.org/wiki/Congresso_di_Vienna">
+            <orgName>Congresso di Vienna</orgName>
+          </org>
+          
+          <org xml:id="O_MSF" corresp="https://archiviodistatofirenze.cultura.gov.it/asfi/strumenti/inventari-on-line/inventari-m/magistrato-supremo">
+            <orgName>Magistrato supremo di Firenze</orgName>
+          </org>
+          
+          <org xml:id="O_RC" corresp="https://archiviodistatofirenze.cultura.gov.it/asfi/strumenti/inventari-on-line/inventari-r/ruota-civile-di-prime-appellazioni-di-firenze">
+            <orgName>Ruota Civile</orgName>
+          </org>
+          
+          <org xml:id="O_SC" corresp="NO INFO">
+            <orgName>Supremo Consiglio</orgName>
+          </org>
+          
+          <org xml:id="O_RDI" corresp="https://it.wikipedia.org/wiki/Regno_d%27Italia_(1861-1946)">
+            <orgName>Regno d'Italia</orgName>
+          </org>
+          
+          <org xml:id="O_TA" corresp="https://www.beweb.chiesacattolica.it/enti/ente/8968/Tipografia+Aldina">
+            <orgName>Tipografia Aldina</orgName>
+          </org>
+          
+          <org xml:id="O_ADFir" corresp="https://it.wikipedia.org/wiki/Archivio_di_Stato_di_Firenze">
+            <orgName>Archivio di Firenze</orgName>
+          </org>
+          <org xml:id="O_TipF" corresp="NO INFO">
+            <orgName>Tipografia Fodratti</orgName>
+          </org>
+        </listOrg>
+        
+        <!--POVERO CANE-->
+        <listOrg type="PoveroCane">
+          
+          <org xml:id="O_LuoghiPii" corresp="http://dati.san.beniculturali.it/SAN/complarc_SIAS_san.cat.complArch.35175">
+            <orgName>Luoghi Pii</orgName>
+          </org>
+          
+          <org xml:id="O_Carabinieri" corresp="https://it.wikipedia.org/wiki/Arma_dei_Carabinieri">
+            <orgName>Carabinieri</orgName>
+          </org>
+        </listOrg>
+        <!--BIBLIOGRAFIA-->
+        <listOrg type="Bibliografia">
+          <org xml:id="O_EL" corresp="https://www.loescher.it/">
+            <orgName>E. Loescher</orgName>
+          </org>
+          
+          <org xml:id="O_SR" corresp="https://www.treccani.it/enciclopedia/stamperie-reali/">
+            <orgName>Stamperia Reale</orgName>
+          </org>
+          
+          <org xml:id="O_Toschi" corresp="NO INFO">
+            <orgName>Toschi</orgName>
+          </org>
+          
+          <org xml:id="O_Osp" corresp="NO INFO">
+            <orgName>Ospedale di Borgo d'Ale</orgName>
+          </org>
+        </listOrg>
+        
+        
+      </particDesc>
+      
+      <!-- LUOGHI -->
+      <settingDesc>
+        
+        <!-- BARONE -->
+        <listPlace type="LaCaritaBarone">
+          
+          <place xml:id="S_V" corresp="https://it.wikipedia.org/wiki/Vernio">
+            <placeName>Vernio</placeName>
+            <region>Toscana</region>
+            <country>Italia</country>
+          </place>
+          
+          <place xml:id="S_T" corresp="https://it.wikipedia.org/wiki/Toscana">
+            <placeName>Toscana</placeName>
+            <country>Italia</country>
+          </place>
+          
+          <place xml:id="S_Prato" corresp="https://it.wikipedia.org/wiki/Prato_(Italia)">
+            <placeName>Prato</placeName>
+            <region>Toscana</region>
+            <country>Italia</country>
+          </place>
+          
+          
+          <place xml:id="S_Vienna" corresp="https://it.wikipedia.org/wiki/Vienna">
+            <placeName>Vienna</placeName>
+            <country>Austria</country>
+          </place>
+          
+          <place xml:id="S_P" corresp="https://it.wikipedia.org/wiki/Pistoia">
+            <placeName>Pistoia</placeName>
+            <region>Toscana</region>
+            <country>Italia</country>
+          </place>
+          
+          <place xml:id="S_Poppi" corresp="https://it.wikipedia.org/wiki/Poppi">
+            <placeName>Poppi</placeName>
+            <region>Toscana</region>
+            <country>Italia</country>
+          </place>
+          
+          <place xml:id="S_B" corresp="https://it.wikipedia.org/wiki/Bologna">
+            <placeName>Bologna</placeName>
+            <region>Emilia-Romagna</region>
+            <country>Italia</country>
+          </place>
+          
+          <place xml:id="S_M" corresp="https://it.wikipedia.org/wiki/Milano">
+            <placeName>Milano</placeName>
+            <region>Lombardia</region>
+            <country>Italia</country>
+          </place>
+          
+          <place xml:id="S_FR" corresp="https://it.wikipedia.org/wiki/Francia">
+            <placeName>Francia</placeName>
+          </place>
+        </listPlace>
+        <!--POVERO CANE-->
+        <listPlace type="PoveroCane">
+          <place xml:id="S_Cascina" corresp="https://www.lombardiabeniculturali.it/architetture/schede/MI100-01241/">
+            <placeName>cascina Mornata</placeName>
+          </place>
+          
+          <place xml:id="S_NO" corresp="https://it.wikipedia.org/wiki/Novara">
+            <placeName>Novara</placeName>
+            <region>Piemonte</region>
+            <country>Italia</country>
+          </place>
+          
+          <place xml:id="S_M1" corresp="https://it.wikipedia.org/wiki/Milano">
+            <placeName>Milano</placeName>
+            <region>Lombardia</region>
+            <country>Italia</country>
+          </place>
+          
+          <place xml:id="S_LDC" corresp="https://it.wikipedia.org/wiki/Lago_di_Como">
+            <placeName>Lago di Como</placeName>
+          </place>
+        </listPlace>
+        
+        <!--BIBLIOGRAFIA-->
+        <listPlace type="Bibliografia">
+          
+          <place xml:id="S_TO" corresp="https://it.wikipedia.org/wiki/Torino">
+            <placeName>Torino</placeName>
+            <region>Piemonte</region>
+            <country>Italia</country>
+          </place>
+          
+          <place xml:id="S_IT" corresp="https://it.wikipedia.org/wiki/Italia">
+            <placeName>Italia</placeName>
+          </place>
+          
+          <place xml:id="S_MO" corresp="https://it.wikipedia.org/wiki/Modena">
+            <placeName>Modena</placeName>
+            <region>Emilia-Romagna</region>
+            <country>Italia</country>
+          </place>
+          
+          <place xml:id="S_BDA" corresp="https://it.wikipedia.org/wiki/Borgo_d%27Ale">
+            <placeName>Borgo d'Ale</placeName>
+          </place>
+          
+          <place xml:id="S_Bres" corresp="https://it.wikipedia.org/wiki/Breslavia">
+            <placeName>Breslavia</placeName>
+            <country>Polonia</country>
+          </place>
+          
+        </listPlace>
+        
+      </settingDesc>
+      
+      
+      
+      
+      <!-- LANGUAGE + TEXT TYPE -->
+      
+      <langUsage>
+        <language ident="it">Italiano</language>
+      </langUsage>
+      
+      <textDesc>
+        <channel mode="w">journal</channel>
+        <constitution type="single"/>
+        <derivation type="original"/>
+        <domain type="multi">politics science literature art</domain>
+        <factuality type="fact"/>
+        <interaction type="none"/>
+        <preparedness type="prepared"/>
+        <purpose type="inform" degree="high"/>
+        <purpose type="entertain" degree="medium"/>
+      </textDesc>
+      
+    </profileDesc>
+    
+  </teiHeader>
+  
+  <!-- FACSSIMILE -->
+  <facsimile>
+    <surface xml:id="imgr1">
+      <graphic url='img1.png' width='689.666666px' height='1005.666666px' />
+      <zone ulx="346" uly="708" lrx="682" lry="821" corresp="#Paragrafo1_LaCaritaBarone"/>
+      <zone ulx="348" uly="820" lrx="683" lry="942" corresp="#Paragrafo2_LaCaritaBarone"/>
+      <zone ulx="350" uly="949" lrx="683" lry="1002" corresp="#nota1"/>
+    </surface>
+    
+    <surface xml:id="imgr2">
+      <graphic url='img2.png' width='720.666666px' height='998.666666px' />
+      <zone ulx="9" uly="41" lrx="355" lry="629" corresp="#Paragrafo3_LaCaritaBarone"/>
+      <zone ulx="11" uly="625" lrx="359" lry="810" corresp="#Paragrafo4_LaCaritaBarone"/>
+      <zone ulx="17" uly="816" lrx="357" lry="880" corresp="#nota1b"/>
+      <zone ulx="18" uly="882" lrx="362" lry="991" corresp ="#nota2_3"/>
+      <zone ulx="359" uly="44" lrx="697" lry="203" corresp="#Paragrafo6_LaCaritaBarone"/>
+      <zone ulx="360" uly="203" lrx="699" lry="554" corresp="#Paragrafo7_LaCaritaBarone"/>
+      <zone ulx="362" uly="555" lrx="705" lry="828" corresp="#Paragrafo8_LaCaritaBarone"/>
+      <zone ulx="367" uly="829" lrx="710" lry="995" corresp="#nota4_5_6"/>    
+    </surface>
+    
+    <surface xml:id="imgr3">
+      <graphic url='img3.png' width='694.666666px' height='998.666666px' />
+      <zone ulx="6" uly="43" lrx="351" lry="127" corresp="#Paragrafo9_LaCaritaBarone"/>
+      <zone ulx="9" uly="127" lrx="349" lry="415" corresp="#Paragrafo10_LaCaritaBarone"/>
+      <zone ulx="11" uly="416" lrx="348" lry="735" corresp="#Paragrafo11_LaCaritaBarone"/>
+      <zone ulx="16" uly="744" lrx="344" lry="989" corresp="#nota7_8_9_10"/>
+      <zone ulx="355" uly="42" lrx="691" lry="159" corresp="#Paragrafo12_LaCaritaBarone"/>
+      <zone ulx="355" uly="158" lrx="693" lry="880" corresp="#Paragrafo13_LaCaritaBarone"/>
+      <zone ulx="356" uly="887" lrx="690" lry="996" corresp="#nota11_12_13"/>
+    </surface>
+    
+    <surface xml:id="imgr4">
+      <graphic url='img4.png' width='706.666666px' height='1000.666666px' />
+      <zone ulx="9" uly="42" lrx="345" lry="320" corresp="#Paragrafo14_LaCaritaBarone"/>
+      <zone ulx="13" uly="318" lrx="350" lry="670" corresp="#Paragrafo15_LaCaritaBarone"/>
+      <zone ulx="14" uly="673" lrx="348" lry="994" corresp="#nota14_15_16"/>
+      <zone ulx="350" uly="46" lrx="687" lry="149" corresp="#Paragrafo16_LaCaritaBarone"/>
+      <zone ulx="353" uly="148" lrx="695" lry="669" corresp="#Paragrafo17_LaCaritaBarone"/>
+      <zone ulx="354" uly="671" lrx="693" lry="914" corresp="#Paragrafo18_LaCaritaBarone"/>
+      <zone ulx="354" uly="925" lrx="695" lry="998" corresp="#nota17_18"/>
+    </surface>
+    
+    <surface xml:id="imgr5">
+      <graphic url='img5.png' width='701.666666px' height='995.666666px' />
+      <zone ulx="8" uly="44" lrx="348" lry="357" corresp="#Paragrafo19_LaCaritaBarone"/>
+      <zone ulx="8" uly="356" lrx="358" lry="880" corresp="#Paragrafo20_LaCaritaBarone"/>
+      <zone ulx="22" uly="889" lrx="359" lry="989" corresp="#nota19_20"/>
+      <zone ulx="353" uly="45" lrx="691" lry="87" corresp="#Paragrafo21_LaCaritaBarone"/>
+      <zone ulx="355" uly="86" lrx="692" lry="541" corresp="#Paragrafo22_LaCaritaBarone"/>
+      <zone ulx="359" uly="539" lrx="698" lry="813" corresp="#Paragrafo23_LaCaritaBarone"/>
+      <zone ulx="361" uly="819" lrx="699" lry="988" corresp="#nota21_22_23"/>
+    </surface>
+    
+    
+    <surface xml:id="imgr6">
+      <graphic url='img6.png' width='717.666666px' height='1006.666666px' />
+      <zone ulx="10" uly="45" lrx="348" lry="254" corresp="#Paragrafo24_LaCaritaBarone"/>
+      <zone ulx="16" uly="928" lrx="351" lry="968" corresp="#nota23b_24"/>
+    </surface>
+    
+    <surface xml:id="imgr7">
+      <graphic url='img7.png' width='703.666666px' height='996.666666px' />
+      <zone ulx="3" uly="196" lrx="343" lry="568" corresp="#Paragrafo1_PoveroCane"/>
+      <zone ulx="3" uly="570" lrx="342" lry="741" corresp="#Paragrafo2_PoveroCane"/>
+      <zone ulx="3" uly="740" lrx="342" lry="811" corresp="#Paragrafo3_PoveroCane"/>
+      <zone ulx="3" uly="811" lrx="344" lry="854" corresp="#Paragrafo4_PoveroCane"/>
+      <zone ulx="5" uly="853" lrx="346" lry="995" corresp="#Paragrafo5_PoveroCane"/>
+      <zone ulx="347" uly="49" lrx="692" lry="107" corresp="#Paragrafo6_PoveroCane"/>
+      <zone ulx="349" uly="105" lrx="691" lry="413" corresp="#Paragrafo7_PoveroCane"/>
+      <zone ulx="349" uly="412" lrx="688" lry="781" corresp="#Paragrafo8_PoveroCane"/>
+      <zone ulx="349" uly="781" lrx="691" lry="991" corresp="#Paragrafo9_PoveroCane"/>
+    </surface>
+    
+    
+    <surface xml:id="imgr8">
+      <graphic url='img8.png' width='705.666666px' height='1000.666666px' />
+      <zone ulx="8" uly="40" lrx="353" lry="216" corresp="#Paragrafo10_PoveroCane"/>
+      <zone ulx="8" uly="215" lrx="352" lry="497" corresp="#Paragrafo11_PoveroCane"/>
+      <zone ulx="9" uly="499" lrx="348" lry="796" corresp="#Paragrafo12_PoveroCane"/>
+      <zone ulx="8" uly="796" lrx="347" lry="993" corresp="#Paragrafo13_PoveroCane"/>
+      <zone ulx="358" uly="45" lrx="691" lry="87" corresp="#Paragrafo14_PoveroCane"/>
+      <zone ulx="359" uly="87" lrx="691" lry="160" corresp="#Paragrafo15_PoveroCane"/>
+      <zone ulx="359" uly="160" lrx="697" lry="218" corresp="#Paragrafo16_PoveroCane"/>
+      <zone ulx="359" uly="218" lrx="692" lry="289" corresp="#Paragrafo17_PoveroCane"/>
+      <zone ulx="359" uly="296" lrx="692" lry="895" corresp="#Bibliografia_1"/>
+    </surface>
+    
+    <surface xml:id="imgr9">
+      <graphic url='img9.png' width='703.666666px' height='1007.666666px' />
+      <zone ulx="345" uly="47" lrx="690" lry="1003" corresp="#Bibliografia_2_1"/>
+    </surface>
+    
+    <surface xml:id="imgr10">
+      <graphic url='img10.png' width='714.666666px' height='995.666666px' />
+      <zone ulx="5" uly="41" lrx="349" lry="129" corresp="#Bibliografia_2_2" />
+      <zone ulx="357" uly="396" lrx="695" lry="481" corresp="#Notizie_1"/>
+      <zone ulx="359" uly="478" lrx="698" lry="520" corresp="#Notizie_2"/>
+    </surface>
+  </facsimile>
+  
+  <text xml:lang="it">
+    <group>
+      <text xml:id="LaCaritaBarone">
+        <body>
+          <div xml:id="div1">
+            <head rend="center">LA CARITÀ D'UN BARONE dopo un secolo e mezzo di storia italiana</head>
+            <ab xml:id="Paragrafo1_LaCaritaBarone">
+              <lb n="1"/>
+              Studiare nelle vicende di un luogo o d'una istituzione gli
+              <lb n="2"/>
+              effetti dei <term type="theme">grandi rivolgimenti sociali e politici</term>, è opera
+              <lb n="3"/>
+              utile ed istruttiva, perché corregge il vizio delle vuote
+              <lb n="4"/>
+              generalità e somministra saldo fondamento a ri-
+              <lb n="5" break="no"/> 
+              trovare il vero significato e le leggi dei fatti storici;
+              <lb n="6"/>
+              non altrimenti il geologo ravvisa, nei vari strati d'una roc-
+              <lb n="7" break="no"/>
+              cia, le vestigia che vi impressero con segui indelebili le 
+              <lb n="8"/>
+              rivoluzioni della natura.
+            </ab>
+            <ab xml:id="Paragrafo2_LaCaritaBarone">
+              <lb n="9"/>
+              <placeName ref="#S_V">Vernio</placeName>, ridente e montuoso paese di <placeName ref="#S_T">Toscana</placeName>, irrigato
+              <lb n="10"/>
+              dai due Bisenzio, su quel di <placeName ref="#S_Prato">Prato</placeName>, era antico feudo dei 
+              <lb n="11"/>
+              <persName ref="#P_Bardi">Bardi</persName>; i quali lo acquistarono fin dal <date when="1332">1332</date>, per diecimila fio-
+              <lb n="12" break="no"/>
+              rini d'oro, dalla contessa  <persName type="real" ref="#P_MS">Margherita Salimbeni</persName>, ultima
+              <lb n="13"/>
+              discendente ed erede dei conti <persName ref="#P_Alberti">Alberti</persName>, precedenti sovrani
+              <lb n="14"/>
+              che vi avevano fondato la leggendaria abbazzia di Monte-
+              <lb n="15" break="no"/>
+              piano e l'avevano insanguinato colle contese fratricide ri-
+              <lb n="16" break="no"/>
+              cordate da <persName ref="#P_DA" >Dante</persName>. *
+            </ab>
+            <ab xml:id="Paragrafo3_LaCaritaBarone">
+              <lb n="17"/>
+              Dalla schiatta non meno violenta e feroce dei <persName ref="#P_Bardi">Bardi</persName>,
+              <lb n="18" break="no"/>
+              nacque e fiorì tra il 1618 e il 1702 un <addName>miracolo di savio e
+                <lb n="19"/>
+                umano signore</addName>, il conte <persName ref="#P_RO">Ridolfo d'Alessandro</persName>. Colto
+              <lb n="20"/>
+              di mente e d'animo gentile, egli non solo esercitò sui vassalli
+              <lb n="21"/>
+              un governo mite e affettuoso, ma pensò di migliorarne per
+              <lb n="22"/>
+              sempre le condizioni infelicissime con l'istituzione di una larga 
+              <lb n="23"/>
+              <term type="theme">opera pia</term> a cui legò un patrimonio di un milione e mezzo.
+              <lb n="24"/>
+              <choice><seg><abbr>De'</abbr><expan>Dei</expan></seg></choice> suoi generosi propositi fanno fede, oltre al testamento
+              <lb n="25"/>
+              del <date when="1797-02-17">17 febbraio 1797</date>, le filze di lettere e le <hi rend="italic">note autografe</hi>,
+              <lb n="26"/>
+              che di lui si conservano nell'archivio del <orgName ref="#O_CDV">Comune di Ver-
+                <lb n="27" break="no"/>
+                nio</orgName>. Nè sappiamo ristarci dal citare qualche passo di quelle
+              <lb n="28"/>
+              <hi rend="italic">Memorie</hi> dove con candida alterezza espone le proprie mas-
+              <lb n="29" break="no"/>
+              sime contrarie affatto all'usanza <choice><seg><orig>de'</orig><reg>dei</reg></seg></choice> suoi antecessori:  <quote>Ho
+                <lb n="30"/>
+                volsuto anche in ultimo pigliarmi soddisfazione di fare
+                <lb n="31"/>
+                esperienza con questa opera pia, se sortisca più facile il
+                <lb n="32"/>
+                correggere e bene educare i popoli, con il cercar di prov-
+                <lb n="33" break="no"/>
+                vederli et arricchirli et in ispecie almeno sottrarli all'estrema
+                <lb n="34"/>
+                necessità et <term type="theme">miserabilità</term> che notoriamente sono per tutto
+                <lb n="35"/>
+                il mondo madri e sorelle di tutti li più enormi vizi e de-
+                <lb n="36" break="no"/>
+                pravati costumi.....; oppure riducendoli <addName>poveri miserabili</addName>
+                <lb n="37"/>
+                con l'indebolirli le forze, scemandoli li loro utili et rendite
+                <lb n="38"/>
+                con l'estorsioni et aggravi continui, per il che <choice><seg><orig>venghino</orig><reg>vengono</reg></seg></choice> co-
+                <lb n="39" break="no"/>
+                stretti a perder li mestieri e li avviamenti et il credito con
+                <lb n="40"/>
+                il quale ancora necessariamente suole andare ingiunta la
+                <lb n="41"/>
+                fede, senza la quale non si <choice><seg><orig>puol</orig><reg>può</reg></seg></choice> praticare negozio di alcuna
+                <lb n="42"/>
+                sorte: e dove non <choice><seg><orig>v'è</orig><reg>vi è</reg></seg></choice> negozio non vi <choice><seg><orig>puol</orig><reg>può</reg></seg></choice> essere ricchezza
+                <lb n="43"/>
+                alcuna conforme è seguito per tanti secoli fra quei nostri
+                <lb n="44"/>
+                popoli miserabili.....</quote>  * Il suo cuore è commosso dallo
+              <lb n="45"/>
+              spettacolo di tanta <term type="theme">oppressione</term> e di tanti patimenti che
+              <lb n="46"/>
+              dipinge al vero, come chi li ha visti <choice><seg><orig>co'</orig><reg>con i</reg></seg></choice> propri occhi**: ma
+              <lb n="47"/>
+              non si pasce di soverchie illusioni sulla virtù dei rimedi;
+              <lb n="48"/>
+              e prevede di  <quote>avere ad essere fortemente lacerato da molti
+                <lb n="49"/>
+                prudenti critici che, forse con ragione biasimeranno l'aver
+                <lb n="50"/>
+                io disposto così male per dopo la mia vita delle mie poche
+                <lb n="51"/>
+                sostanze et averi per averle collocate in persone tanto idiote
+                <lb n="52"/>
+                e ingrate.</quote>  Simil pensiero, sdegnosamente melanconico in
+              <lb n="53"/>
+              un uomo che passò più di trent'anni a maturare, a correg-
+              <lb n="54" break="no"/>
+              gere e ricorreggere l'ordinamento della prediletta fonda-
+              <lb n="55" break="no"/>
+              zione, con cui voleva quasi espiare le colpe <choice><seg><orig>de'</orig><reg>dei</reg></seg></choice> suoi mag-
+              <lb n="56" break="no"/>
+              giori, aggiunge a quella simpatica figura di un nuovo tratto di
+              <lb n="57"/>
+              filosofica originalità.
+            </ab>
+            <ab xml:id="Paragrafo4_LaCaritaBarone">
+              <lb n="58"/>
+              Non possono leggersi tuttavia senza meraviglia le sa-
+              <lb n="59" break="no"/>            
+              pienti disposizioni delle tavole testamentarie che ogni trent'an-
+              <lb n="60" break="no"/>
+              ni si dovevano ristampare e che tutti dovevano aver sem-
+              <lb n="61" break="no"/>
+              pre presenti. Sotto l'invocazione di <persName ref="#P_SN"><choice><seg><abbr>S.</abbr><expan>Santo</expan></seg></choice> Niccolò</persName>, vescovo di
+              <lb n="62"/>  
+              Bari (celebratissimo per la sua <term type="theme">carità</term>) era eretta una Con-
+              <lb n="63" break="no"/>
+              fraternita  <quote>destinata (dice il Testatore) prima ad onore di
+                <lb n="64"/>
+                Dio, poi per aiuto e sostentamento dei miei poveri vassalli,
+                <lb n="65"/>
+                et in salute dell'anima mia.</quote> 
+              <lb n="66"/>    
+              Ne facevano parte soltanto i suoi sudditi maschi e di-
+              <lb n="67" break="no"/>
+              scendenti maschi; oltre a vari obblighi spirituali, dovevano
+              <lb n="68"/>
+              dedicarsi ad ufficii di <term type="theme">beneficienza</term>, visitare e soccorrere i
+              <lb n="69"/>
+              fratelli infermi, dotare de donzelle, e soprattutto ammini-
+              <lb n="70" break="no"/>
+              strare le sostanze comuni; a tale intento venivano prescritte
+            </ab>
+            <ab xml:id="Paragrafo6_LaCaritaBarone">
+              <lb n="71"/>
+              minute cautele intorno all'impiego del denaro, ai <hi rend="italic">moltiplichi</hi>
+              <lb n="72"/>
+              dei frutti, alle distribuzioni degli avanzi. Ne erano esclusi
+              <lb n="73"/>
+              i religiosi, i cherici e i regolari; i vassalli degli altri Conti
+              <lb n="74"/>
+              di Vernio (i quali peraltro, potevano in certi casi parteci-
+              <lb n="75" break="no"/>
+              pare alle elemosine); i debitori della Compagnia, i promo-
+              <lb n="76" break="no"/>
+              tori di risse, gli uomini di mala fama e macchiati di de-
+              <lb n="77" break="no"/>
+              litti, e coloro che si trasferisserio fuor del paese, salvochè
+              <lb n="78"/>
+              per ragione di studio, di milizia o di mercatura. Non do-
+              <lb n="79" break="no"/>
+              vevano neppure avervi parte i Conti di Vernio ai quali era 
+              <lb n="80"/>
+              anzi esplicitamente inibito d'immischiarsi nella gestione
+              <lb n="81"/>
+              dell'opera pia. *
+            </ab>
+            <ab xml:id="Paragrafo7_LaCaritaBarone">
+              <lb n="82"/>
+              Il conte <persName ref="#P_RO">Ridolfo</persName> legò poi l'alto dominio e il mero e mi-
+              <lb n="83" break="no"/>
+              sto impero del feudo al suo congiunto <persName ref="#P_Carlo">Carlo</persName> letterato e 
+              <lb n="84"/>
+              accademico della Crusca, sostituendogli altre linee in caso
+              <lb n="85"/>
+              di estinzione della sua discendenza; ma a tutti vietò del
+              <lb n="86"/>
+              parti alienare quel diritto, di imporre nuobi aggravi di
+              <lb n="87"/>    
+              dazi, tributi, obbligazioni o fazioni, sia reali sia personali,
+              <lb n="88"/>
+              al di là di quelli espressamente da lui determinati; e, con
+              <lb n="89"/>
+              caldissime parole d'<hi rend="italic">amore e di pietà</hi> raccomandò istan-
+              <lb n="90" break="no"/>
+              temente al conte Carlo e agli altri chiamati di  <quote>volere con
+                <lb n="91"/>
+                ogni <hi rend="italic">carità e clemenza</hi> trattare e governare i medesimi vas-
+                <lb n="92" break="no"/>
+                salli, con difenderli da tutte l'oppressioni...., acciò con que-
+                <lb n="93" break="no"/>
+                sta fiducia di protezione possino godere pacificamente il
+                <lb n="94"/>
+                loro, e far vive le sue ragioni, spogliati d'ogni timore di
+                <lb n="95"/>
+                soperchieria,.... e liberamente e virilmente difendersi da
+                <lb n="96"/>
+                qualsiasi persona che sopra di loro volesse pigliare van-
+                <lb n="97" break="no"/>
+                taggio....</quote>  Terminava infine questo paragrafo  <quote>gravando la
+                <lb n="98"/>
+                coscienza di tutti li signori Conti della famiglia et in ispe-
+                <lb n="99" break="no"/>
+                cie quelli che <foreign xml:lang="la"> <hi rend="italic">pro tempore</hi></foreign> saranno padroni di detti vassalli
+                <lb n="100"/>
+                se mancheranno all'occorrenza di difenderli e proteggerli.</quote>  **
+              <lb n="101"/>
+              Ma pur troppo tutte le provvidenze morali, giuridiche e 
+              <lb n="102"/>
+              amministrative da lui con tanto studio meditate in vita
+              <lb n="103"/>
+              stavano per riuscir vane, non meno delle incessanti pre-
+              <lb n="104" break="no"/>
+              ghiere che ripromettevasi di volgere al Signore, dopo la
+              <lb n="105"/>
+              sua morte, per la conservazione del  <quote>bene di carità lasciato
+                <lb n="106"/>
+                a quei poveri miserabili sciagurati.</quote>  ***
+            </ab>
+            <ab xml:id="Paragrafo8_LaCaritaBarone">
+              <lb n="107"/>
+              Alla volontà del Testatore (spirato il <date when="1702-12-24">24 dicembre 1702</date>)
+              <lb n="108"/>
+              dette esecuzione, com'egli aveva prescritto, il <orgName ref="#O_CDDDF">Capitolo del
+                <lb n="109"/>
+                Duomo di Firenze</orgName>, che quindi nel <date when="1712">1712</date>, nel qual
+              <lb n="110"/>
+              tempo la reggenza del feudo venne, per mala sorte, nelle
+              <lb n="111"/>
+              mani del conte <persName ref="#P_Flaminio">Flaminio</persName>, commendatore nella religione di
+              <lb n="112"/>
+              Santo Stefano e abate di Montepiano. Il Fedeli, che trasse
+              <lb n="113"/>
+              dall'archivio di Vernio preziosi ricordi di queste vicende, ha
+              <lb n="114"/>
+              ragione di chiamarlo un <addName>tirannello da medio evo</addName>, perchè la 
+              <lb n="115"/>
+              storia e i documenti delle sue imprese mostrano come in
+              <lb n="116"/>
+              lui rivivesse la <addName>prepotenza sanguinaria degli antichi baroni</addName>.
+              <lb n="117"/>
+              Pretese subito d'impadronirsi della gestione dell'opera pia
+              <lb n="118"/>
+              usurpandone le rendite e violandone gli statuti; alle la-
+              <lb n="119" break="no"/>
+              gnanze dei sudditi che lo richiamavano almeno a rendere
+              <lb n="120"/>
+              i conti, rispose pubblicando un deitto, il <date when="1777-06-10">10 giugno 1777</date>,
+              <lb n="121"/>
+              con cui privava i querelanti d'ogni distribuzione di sussidi.
+              <lb n="122"/>
+              Per dettar legge <choice><seg><orig>colla</orig><reg>con la</reg></seg></choice> forza s'attorniò di feroci sgherri fatti
+              <lb n="123"/>
+              venire dalla Romagna; ne nacquero congiure, violenze, 
+            </ab>
+            <ab xml:id="Paragrafo9_LaCaritaBarone">
+              <lb n="124"/> 
+              zuffe, ferimenti; la vittoria rimase al conte Flaminio che
+              <lb n="125"/>
+              catturò e sostenne in prigione parecchi tumultuanti o so-
+              <lb n="126" break="no"/>
+              spetti, mentre altri più si salvavano uscendo dal feudo; e
+              <lb n="127"/>
+              fra questi i capi dei malcontenti Toccafondi, Rossi o Fede-
+              <lb n="128" break="no"/>
+              li, contro i quali fece fabbricare un voluminoso processo
+              <lb n="129"/>
+              che tutta via conservasi nell'archivio fiorentino. *1
+            </ab>
+            <ab xml:id="Paragrafo10_LaCaritaBarone">
+              <lb n="130"/>
+              Regnava in Toscana da dodici anni <persName ref="#P_PL">Pietro Leopoldo</persName> il
+              <lb n="131"/>
+              quale, come tutti sanno, odiava il <term type="theme">feudalismo</term>, amava la
+              <lb n="132"/>
+              giustizia ed era assai tenero della proprià autorità; tre
+              <lb n="133"/>
+              ragioni che dovevano muoverlo a pigliar la difesa dei vas-
+              <lb n="134" break="no"/>
+              salli e rintuzzare l'arroganza dei baroni di Vernio. A lui
+              <lb n="135"/>
+              in fatti si volsero con fiducia quegli esiliati che già alcuni
+              <lb n="136"/>
+              mesi innanzi gli avevano rimesso un memoriale; or ecco
+              <lb n="137"/>
+              come uno di essi, Andrea Fedeli, ci descrive con vivace
+              <lb n="138"/>
+              schiettezza la scena dell'udienza sovrana:  <quote>Andammo a'
+                <lb n="139"/>
+                Pitti da sua Altezza il Granduca, e fattici annunziare da 
+                <lb n="140"/>
+                un vecchio gallonato, e' ci venne incontro con cera allegra,
+                <lb n="141"/>
+                ci fece sedere su seggiolini tutti dorati e ci invitò a dirgli
+                <lb n="142"/>
+                tutto il passato a Vernio. Bastiano (Toccafondi) che non
+                <lb n="143"/>
+                avea lo scilinguagnolo alla lingua, raccontò finalmente le 
+                <lb n="144"/>
+                belle azion del Conte Abate, al che Sua Altezza sorrideva,
+                <lb n="145"/>
+                giacchè Bastiano le diceva come le sentiva. Il Granduca,
+                <lb n="146"/>
+                dopo il racconto del Toccafondi, gli battè sulla spalla e 
+                <lb n="147"/>
+                disse: Andate, buona gente, andate. Penserò a rimediare
+                <lb n="148"/>
+                io. - Partimmo da' Pitti tutti consolati e giurammo ven-
+                <lb n="149" break="no"/>
+                detta contro li nostri Neroni.</quote> *2
+            </ab>
+            <ab xml:id="Paragrafo11_LaCaritaBarone">
+              <lb n="150"/>
+              <persName ref="#P_PL">Pietro Leopoldo</persName> fu per lo più assai fortunato nel ridurre
+              <lb n="151"/>
+              ad obbedienza i feudatari, sia mediante accordi, come fece
+              <lb n="152"/>
+              coi Malaspina e coi Ginori, sia <choice><seg><orig>colla</orig><reg>con la</reg></seg></choice> forza, come usò verso
+              <lb n="153"/>
+              i marchesi di Monte Santa Maria, ai quali occurò la rocca,
+              <lb n="154"/>
+              e i Conti Ubertini che finirono coll'arrendersi intieramente. *3
+              <lb n="155"/>
+              Ma l'impresa non doveva riuscirgli ugualmente facile col
+              <lb n="156"/>
+              Conte Abate, il quale non era uomo da lasciarsi intimorire 
+              <lb n="157"/>
+              ed accoppiava <choice><seg><orig>colla</orig><reg>con la</reg></seg></choice> fierezza l'astuzia. Mentre mostrava di
+              <lb n="158"/>
+              chiedere egli stesso che il Principe lo aiutasse contro i fa-
+              <lb n="159" break="no"/>
+              cinorosi suoi sudditi e sottoponesse ad inchiesta l'ammi-
+              <lb n="160" break="no"/>
+              nistrazione dell'opera pia, e quindi simulava d'entrare con
+              <lb n="161"/>
+              esso in trattato pr l'alienazione del feudo, dall'altro lato,
+              <lb n="162"/>
+              respingendo la intromissione di Leopoldo come una viola-
+              <lb n="163" break="no"/>
+              zione dell'indipendenza dalla propria signoria e destramente
+              <lb n="164"/>
+              maneggiandosi a Pavia presso il Kevenuller, penipotenzia-
+              <lb n="165" break="no"/>
+              rio dell'imperatore in Italia, si procurava da lui il divieto di
+              <lb n="166"/>
+              procedere nelle pratiche della vendita senza l'approvazione 
+              <lb n="167"/>
+              dell'imperatore. La qual risoluzione fu confermata dal Con-
+              <lb n="168" break="no"/>
+              siglio aulico non ostante la viva opposizione fatta a <placeName ref="#S_Vienna">Vienna</placeName>
+              <lb n="169"/>
+              dal Granduca. *4 E vermanete (anche senza risalire alle con-
+              <lb n="170" break="no"/>
+              cessioni del 1164 e del 1209) Vernio era sempre stato feu- 
+              <lb n="171" break="no"/>
+              do imperiale almeno fino al 1355, non ostante gli atti di
+              <lb n="172"/>
+              sovranità che vi aveva esercitato il <orgName ref="#O_CDF">Comune di Firenze</orgName> fra
+            </ab>
+            <ab xml:id="Paragrafo12_LaCaritaBarone">
+              <lb n="173"/>
+              il 1340 e il 1342; anzi, per un caso singolare, l'<choice><seg><orig>istesso</orig><reg>lo stesso</reg></seg></choice> conte
+              <lb n="174"/>
+              <persName ref="#P_RO">Rodolfo</persName>, pochi anni prima della sua morte, cededo alle
+              <lb n="175"/>
+              fiscali molestie dell'ambasciatore cesareo, conte Martinitz,
+              <lb n="176"/>
+              erasi dovuto procacciare un nuovo diploma d'investitura
+              <lb n="177"/>
+              (che fu del <date when="1697-08-22">22 di agosto del 1697</date>) mediante lo sborso di
+              <lb n="178"/>
+              millecentottantasei scudi, aggravio di cui, <choice><seg><orig>colla</orig><reg>con la</reg></seg></choice> sua solita
+              <lb n="179"/>
+              bontà, non aveva voluto menomamente rifarsi a carico dei
+              <lb n="180"/>
+              vassalli.*
+            </ab>
+            <ab xml:id="Paragrafo13_LaCaritaBarone">
+              <lb n="181"/>
+              Fino a quel punto la lotta era stata coperta, avendo 
+              <lb n="182"/>
+              il Conto Abate, con apparento rispetto alle volontà del 
+              <lb n="183"/>
+              Granduca, lasciati tornare i fuorusciti e sospese le pre-
+              <lb n="184" break="no"/>
+              tensioni sull'Opera Pia, che era sottoposta allora all'esame
+              <lb n="185"/>
+              del <persName ref="#P_SI">Senatore Ippoliti</persName>(<date when="1778-06-07">7 giugno 1778</date>); ma dopo il 1779 di-
+              <lb n="186"/>
+              vampò in guerra guerreggiata; nuovo violenze e nuovi tu-
+              <lb n="187" break="no"/>
+              multi essendo successi a Vernio e nuove suppliche venute al 
+              <lb n="188"/>
+              Granduca da parte degli abitanti, questi citò il conte Fla-
+              <lb n="189" break="no"/>
+              minio a rispondere del suo operato davanti al supremo magi-
+              <lb n="190" break="no"/>
+              strato di Firenze. L'altro ricorse alla Camera Aulica per la 
+              <lb n="191"/>
+              tutela dei propri diritti ; in pari tempo richiamava gli
+              <lb n="192"/>
+              scherani che per un momento aveva allontanati, rizzava le 
+              <lb n="193"/>
+              forche sulla piazza del castello, ordinava arresti, e, con 
+              <lb n="194"/>
+              apposito <hi rend="italic">Regolamento e sistema giudiziario</hi>, bandito il <date when="1780-03-12">12 marzo 1780</date>, 12 
+              <lb n="195"/>
+              marzo 1780, minacciava dell'esilio qualunque vassallo s'at-
+              <lb n="196" break="no"/>
+              tentasse di promuovere o difendere alcuna causa davanti 
+              <lb n="197"/>
+              a <orgName ref="#O_Trib">Tribunali</orgName> posti fuori del territorio feudale. ** Il granduca 
+              <lb n="198"/>
+              dal cauto suo non tralasciò dal denunziare all' imperiale
+              <lb n="199"/>
+              fratello la condotta del feudatario, confortando le accuse 
+              <lb n="200"/>
+              con memorie e documenti; ma, essendosi la corte di Vienna 
+              <lb n="201"/>
+              mostrala favorevole alle ragioni del <persName ref="P_CA">Conte Abate</persName>, dovè sop-
+              <lb n="202" break="no"/>
+              portare in pace che il suo avversario tornasse trionfalmente 
+              <lb n="203"/>
+              a Vernio, il <date when="1781-10-06">6 ottobre 1781</date>, tra fuochi di gioia, spari di 
+              <lb n="204"/>
+              moschetti, illuminazioni e balli campestri. Le cose peraltro
+              <lb n="205"/> 
+              non durarono quiete; il <date when="1782-04-23">23 aprile del 1782</date>, gli sgherri dei
+              <lb n="206"/> 
+              Bardi mandati a catturare tre uomini della famiglia Toc-
+              <lb n="207" break="no"/> 
+              cafondi (supposti autori d'una canzono popolare composta 
+              <lb n="208"/> 
+              in odio ai padroni) avendoli trovati in un campo, senza in-
+              <lb n="209" break="no"/> 
+              timazione, spararono contro di loro gli archibugi, sicché uno 
+              <lb n="210"/> 
+              ne uccisero e ferirono gli altri due. Il paese fu tutto sos-
+              <lb n="211" break="no"/> 
+              sopra; si chiedeva giustizia; ma il vicario generale <persName ref="#P_DS">DeSpighi</persName>
+              <lb n="212"/> 
+              era fuggito e una squadra di soldati guardava il tribu-
+              <lb n="213" break="no"/> 
+              nale e il castello; i Toccafondi cercarono asilo e difesa in 
+              <lb n="214"/> 
+              Toscana. <persName ref="#P_PL">Pietro Leopoldo</persName> fece scrivere tosto all' auditor 
+              <lb n="215"/> 
+              fiscale che spiccasse precetto di comparsa contro lo Spighi 
+              <lb n="216"/> 
+              ed intimasse a <persName ref="#P_Flaminio">Flaminio</persName> formalmente e prontamente l'ordine di 
+              <lb n="217"/> 
+              uscire e rimaner fuori dallo Stato; ingiunse poi a tutti ì 
+              <lb n="218"/> 
+              Bardi di sussidiare la famiglia dell'ucciso, se non volevano 
+              <lb n="219"/> 
+              che si ricattasse sui beni che possedevano nei propri do-
+              <lb n="220" break="no"/> 
+              minii (<date when="1782-04-27">27 aprile 1782</date>). <persName ref="#P_GDB">Gualterotto <seg><choice><seg><orig>de'</orig><reg>dei</reg></seg></choice></seg> Bardi</persName>, chiedendo gra-
+              <lb n="221" break="no"/> 
+              zia per sé e per gli altri coreggenti del feudo, tentò sfug-
+              <lb n="222" break="no"/> 
+              gire a quest'onoro affermando essere i Toccafondi sudditi 
+              <lb n="223"/> 
+              del solo Flaminio e a lui solo aversi da imputare le tur-
+              <lb n="224" break="no"/> 
+              bolenze successe; ed il Granduca mosso da tali ragioni e 
+              <lb n="225"/> 
+              dalla perfetta sommissione dell'umile supplicante che vanta-
+              <lb n="226" break="no"/> 
+              vasi onesto e leale suddito consentì a colpire colui che ap-
+              <lb n="227" break="no"/> 
+              pariva il vero colpevole; così, riserbandogli peraltro il di-
+              <lb n="228" break="no"/> 
+              ritto di rivalsa sui proprii consorti, l'obbligò a passare ai 
+              <lb n="229"/> 
+              Toccafondi quattro paoli al giorno per sedici anni. *** 
+              <lb n="230"/> 
+              Già precedentemente, avuta relazione dal senatore Ippo-
+              <lb n="231" break="no"/> 
+              liti (in seguito all' inchiesta commessagli) che l'opera pia
+            </ab>
+            <ab xml:id="Paragrafo14_LaCaritaBarone">
+              <lb n="232"/>  
+              di <choice><seg><abbr>S.</abbr><expan>Santo</expan></seg></choice> Niccolò era stata malamente amministrata o danneg-
+              <lb n="233" break="no"/> 
+              giata con abusi  e prepotenze, contro la volontà del te-
+              <lb n="234" break="no"/> 
+              statore, aveva con <foreign xml:lang="la">motuproprio</foreign> del <date when="1781-07-15">15 luglio 1781</date> escluse 
+              <lb n="235"/> 
+              la casata dei Cardi da ogni ingerenza nella futura ge-
+              <lb n="236" break="no"/> 
+              stione e ordinato che la riassumessero i canonici del <orgName ref="#O_CDP">capi-
+                <lb n="237" break="no"/> 
+                tolo di Pistoia</orgName>, lasciando al corso ordinario di giustizia le 
+              <lb n="238"/> 
+              ragioni che potessero competere alla compagnia per i pregiu-
+              <lb n="239" break="no"/> 
+              dizi sofferti.* Il Conte Abate, appena avuta notizia del bando 
+              <lb n="240"/> 
+              inflittogli, erasi recato a Vienna a sostenere personalmente
+              <lb n="241"/> 
+              le sue ragioni nella causa tuttavia pendente dinanzi alla 
+              <lb n="242"/> 
+              <orgName ref="#O_CA">Camera aulica</orgName> intorno al dominio di Vernio; da una parte 
+              <lb n="243"/> 
+              e dall'altra con erudizione storico-legale si rivangavano le 
+              <lb n="244"/> 
+              antiche memorie e si opponevano ai diplomi dei Barbarossa 
+              <lb n="245"/> 
+              e degli Ottoni gli atti d'accomandigia o di soggezione dei 
+              <lb n="246"/> 
+              signori e degli uomini di Vernio alla <orgName ref="#O_RF">Repubblica fiorentina</orgName>; 
+              <lb n="247"/> 
+              un nuovo trattato per la vendita del feudo, intavolato questa 
+              <lb n="248"/> 
+              volta col consenso dell'Imperatore, non riuscì ad alcuna con-
+              <lb n="249" break="no"/> 
+              clusione, per cagione della <hi rend="italic">irregolare condotta, ingiuste pre-
+                <lb n="250" break="no"/> 
+                tensioni, difficoltà, e lunghezza affettate dei <persName ref="#P_Bardi">Bardi</persName> </hi>(<date when="1785-07-07">7 luglio 1785</date>).
+            </ab>
+            <ab xml:id="Paragrafo15_LaCaritaBarone">
+              <lb n="251"/>
+              Anche da lontano peraltro il <persName ref="#P_CA">conte Abate</persName> non trala-
+              <lb n="252" break="no"/>
+              sciava di commettere violenze contro i sudditi e d'infram-
+              <lb n="253" break="no"/>
+              mettersi insidiosamente nelle faccende dell'opera pia 
+              <lb n="254"/>
+              (1785-87). ** Finalmente il <orgName ref="#O_MA">Magistrato Aulico</orgName> decise la lite,
+              <lb n="255"/>
+              il <date when="1787-10-16">16 ottobre 1787</date>, dichiarando essere il feudo di Vernio 
+              <lb n="256"/>
+              sotto la dipendenza diretta del <orgName ref="#O_SI">sacro Impero</orgName>, negando ogni 
+              <lb n="257"/>
+              diritto nel Granduca di molestare la casata dei Bardi nel-
+              <lb n="258" break="no"/>
+              l'esercizio del vicariato, e condannando altresì quel Prin-
+              <lb n="259" break="no"/>
+              cipe a rimettere le cose in pristino con rifacimento delle 
+              <lb n="260"/>
+              spese e dei danni. <persName ref="#P_PL">Pietro Leopoldo</persName>, consigliato dall'<choice><seg><orig>istesso</orig><reg>lo stesso</reg></seg></choice> 
+              <lb n="261"/>
+              Imperatore, interpose appello alla <orgName ref="#O_DDR">Dieta di Ratisbona</orgName> in-
+              <lb n="262" break="no"/>
+              caricando dello studio della causa il <choice><seg><abbr>Pr.</abbr><expan>?</expan></seg></choice>Maccioni, il Pagnini 
+              <lb n="263"/>
+              e altri giureconsulti. *** Tre anni appresso, essendo morto 
+              <lb n="264"/>
+              <persName ref="#P_G2">Giuseppe II</persName>, toccò a lui di succedere al fratello così negli 
+              <lb n="265"/>
+              Stati ereditari come nella corona imperiale. Ma non però 
+              <lb n="266"/>
+              si mutarono le condizioni dei Verniotti, sia che stornato 
+              <lb n="267"/>
+              dallo assiduo cure del governo egli avesse dimenticato quei 
+              <lb n="268"/>
+              poveri montanari, sia che il suo buon volere fosse impo-
+              <lb n="269" break="no"/>
+              tente a vincere le tenaci tradizioni della Cancelleria aulica 
+              <lb n="270"/>
+              e della augusta Dieta. D'altra parte <persName ref="#P_F2">Ferdinando II</persName>, dive-
+              <lb n="271" break="no"/>
+              nuto granduca in luogo del padre, senza proseguire la lotta 
+              <lb n="272"/>
+              contro i Bardi, si contentò di tutelare con un <hi rend="italic"><foreign xml:lang="la">motuproprio</foreign></hi> 
+              <lb n="273"/>
+              del <date when="1791-04-23">23 aprile 1791</date> i diritti dei confratelli dell'Opera resi-
+              <lb n="274" break="no"/>
+              denti in Toscana, valendosi all'uopo (come disse) degli emi-
+              <lb n="275" break="no"/>
+              nenti diritti che per la sua sovrana potestà gli compete-
+            </ab>
+            <ab xml:id="Paragrafo16_LaCaritaBarone">
+              <lb n="276" break="no"/>
+              vano. E poiché molti beni appartenenti al pio patrimonio 
+              <lb n="277"/>
+              erano posti nel granducato, e le deliberazioni della confra-
+              <lb n="278" break="no"/>
+              ternita non dovevano <choice><seg><orig>quivi</orig><reg>quindi</reg></seg></choice> esser ritenute valide senza l'ap-
+              <lb n="279" break="no"/>
+              provazione del Capitolo di Pistoia e senza l'osservanza 
+              <lb n="280"/>
+              delle norme prescritte nel <hi rend="italic"><foreign xml:lang="la">motuproprio</foreign></hi>, così parve che esso 
+              <lb n="281"/>
+              recasse un benefizio anche a quei di Vernio, dando loro 
+              <lb n="282"/>
+              una difesa contro le prepotenze dei feudatari. *
+            </ab>
+            <ab xml:id="Paragrafo17_LaCaritaBarone">
+              <lb n="283"/>
+              Se non che, in quel tempo, aveva già varcato le gole 
+              <lb n="284"/>
+              delle Alpi e cominciava a diffondersi nella penisola il pos-
+              <lb n="285" break="no"/>
+              sente turbine che doveva in brev'ora travolgerne tutti gli 
+              <lb n="286"/>
+              Stati e le istituzioni. Dove non penetrarono le armi fran-
+              <lb n="287" break="no"/>
+              cesi, ne assunsero le parti i democratici cisalpini i quali, 
+              <lb n="288"/>
+              come si vedrà, si mostrarono degni discepoli di quei violenti 
+              <lb n="289"/>
+              liberatori. Appena costituitasi la nuova Repubblica in se-
+              <lb n="290" break="no"/>
+              guito alle vittorie del <persName ref ="#P_Bona">Bonaparte</persName>, cioè nel <date when="1797-05">maggio del 97</date>,
+              <lb n="291"/>
+              dichiarò abolita ogni giurisdizione feudale, dando pieni 
+              <lb n="292"/>
+              poteri, per tale rispetto, al suo <orgName ref="#O_DE">Direttorio esecutivo</orgName>; il 
+              <lb n="293"/>
+              quale con decreto del 20 fruttidoro, anno V, (<date when="1797-09-06">6 settem-
+                <lb n="294"/>
+                bre 1797</date>), incorporò nello Stato l'antica contea di Vernio, 
+              <lb n="295"/>
+              <quote>considerando che il vantaggio comune e il vantaggio 
+                <lb n="296"/>
+                della libertà esigono l' unione in una sola medesima fami-
+                <lb n="297" break="no"/>
+                glia.</quote>  * L'amministrazione centrale del <orgName ref="#O_DR">Dipartimento del 
+                <lb n="298"/>
+                Reno</orgName>, incaricata alla sua volta di mandare ad effetto la 
+              <lb n="299"/>
+              volontà del governo, nominò Commissario straordinario l'av-
+              <lb n="300" break="no"/>
+              vocato Raimondo Leoni, affinchè presiedesse, alla risoluzione 
+              <lb n="301"/>
+              di Vernio. Venne costui nel paese il 15 di settembre prece-
+              <lb n="302" break="no"/>
+              duto da dugento soldati della <orgName ref="#O_LP">legione polacca</orgName> e dallo stato 
+              <lb n="303"/>
+              maggiore della <orgName ref="#O_GNBV">guardia nazionale di Bologna e Vergato</orgName>; 
+              <lb n="304"/>
+              carcerati gli ufficiali del vicariato e messi i sigilli all' ar-
+              <lb n="305" break="no"/>
+              chivio, non avendo trovato nella cassa se non 26 lire fioren-
+              <lb n="306" break="no"/>
+              tine, si volse alla <orgName ref="#O_CSN">Confraternita di <choice><seg><abbr>S.</abbr><expan>Santo</expan></seg></choice> Niccolò</orgName> perche sup-
+              <lb n="307" break="no"/>
+              plisse alle spese occorrenti per lui e pe' suoi. Ma la cassa 
+              <lb n="308"/>
+              era a <placeName ref="#S_P">Pistoia</placeName>; e quando ne ottenne la consegna dal Capi-
+              <lb n="309" break="no"/>
+              tolo, riscontrò che era all'atto vuota. Pensò allora d'imporre 
+              <lb n="310"/>
+              un prestito forzato con cauzione sui fondi dell'Opera Pia. 
+              <lb n="311"/>
+              Convocò pertanto i fratelli a suon di campana nell'ora-
+              <lb n="312" break="no"/>
+              torio di <choice><seg><abbr>S.</abbr><expan>Santo</expan></seg></choice> Niccolò, luogo consueto delle adunanze, che 
+              <lb n="313"/>
+              aveva già fatto soldatescamente occupare da' suoi polacchi; 
+              <lb n="314"/>
+              ed esposta la necessità dell'operazione, obbligò gl' interve-
+              <lb n="315" break="no"/>
+              nuti a votarla subito per alzata e seduta, intimorendoli 
+              <lb n="316"/>
+              con gravi minaccie a cui cresceva peso quell'apparato di 
+              <lb n="317"/>
+              forza militare. <hi rend="italic">Voleva scimmiottare Robespierre </hi>(dice di lui 
+              <lb n="318"/>
+              un onesto contemporaneo) <hi rend="italic">sebbene il cittadino d'Arras fosse 
+                <lb n="319"/>
+                un terribile leone e il cittadino di <placeName ref="#S_Poppi">Poppi</placeName> un ringhioso botolo.</hi> **
+            </ab>
+            <ab xml:id="Paragrafo18_LaCaritaBarone">
+              Contemporaneamente dichiarò soppressa in Vernio ogni 
+              <lb n="320"/>
+              feudalità, cessato l'obbligo dei fitti o prestazioni, fino al-
+              <lb n="321" break="no"/>
+              lora dovuti ai conti Bardi (<date when="1797-09-20">20 settembre 1797</date>). Estorse 
+              <lb n="322"/>
+              ancora all'Opera Pia più di 17 mila lire, presentando un 
+              <lb n="323"/>
+              conto ove figuravano, tra varie partite, lire 5 mila <hi rend="italic">per reco-
+                <lb n="324" break="no"/>
+                gnizioni al Commissario, e per altre spese minute al suddetto </hi>
+              <lb n="325"/>
+              lire 979,9,6. Di più si fece nominare dalla confraternita suo 
+              <lb n="326"/>
+              mandatario presso il <orgName ref="#O_DC">Direttorio Cisalpino</orgName> con un assegno 
+              <lb n="327"/>
+              di 200 zecchini, e simil rappresentanza fece attribuire al 
+              <lb n="328"/>
+              suo segretario Maglioni presso il dipartimento del Reno, 
+              <lb n="329"/>
+              non senza una gratificazione di cinquanta zecchini. I suoi 
+              <lb n="330"/>
+              servizi politici non parevano mai abbastanza pagati! Prima 
+              <lb n="331"/>
+              di partire dispose pure che l'Opera Pia condonasse al Mu-
+              <lb n="332" break="no"/>
+              nicipio, contro illusorio compenso, il debito contratto pel 
+              <lb n="333"/>
+              prestito forzoso (<date when="1797-10-11">11 ottobre 1797</date>). Ma appena liberati dalla 
+              <lb n="334"/>
+              paura che ispirava la sua presenza, i confratelli insieme 
+              <lb n="335"/>
+              cogli altri Verniotti si ammutinarono; il presidente della
+            </ab>
+            <ab xml:id="Paragrafo19_LaCaritaBarone">
+              <lb n="336"/>
+              <orgName ref="#O_MD">Municipalità democratica</orgName>, inviso a tutti, fuggì a <placeName ref="#S_B">Bologna</placeName>; 
+              <lb n="337"/>
+              o il paese restò in balìa dei facinorosi che sarebbero tra
+              <lb n="338"/>
+              scesi ad estreme violenze se non si fossero interposti gli 
+              <lb n="339"/>
+              onesti cittadini <persName ref="#P_Rossi">Rossi</persName>, <persName ref="#P_Tocca">Toccafondi</persName> e <persName ref="#P_Fedeli">Fedeli</persName>. Per buona fortuna 
+              <lb n="340"/>
+              fu mandato da <placeName ref="#S_B">Bologna</placeName> a sedare il tumulto l'aiutante ge-
+              <lb n="341" break="no"/>
+              nerale <persName ref="#P_Fenini">Fenini</persName> che già aveva fatto parto della scorta del 
+              <lb n="342"/>
+              Leoni ed era universalmente stimato. Presentatosi egli 
+              <lb n="343"/>
+              senz'armi, bastarono le sue parole a ricondurre la pace; lo 
+              <lb n="344"/>
+              seguirono poco appresso il <persName ref="#P_Caprara">Caprara</persName>, nuovo Commissario, 
+              <lb n="345"/>
+              col <persName ref="#P_Gali">Galimberti</persName>, Presidente dell' amministrazione centrale, 
+              <lb n="346"/>
+              annunziando una generale amnistia o promettendo giustizia.
+              <lb n="347"/>
+              <quote>Caprara, dice l'<choice><seg><abbr>A.</abbr><expan>?</expan></seg></choice> delle Memorie contemporanee, era 
+                <lb n="348"/>
+                un pretto galantuomo... ed accoglieva minuziosamente i 
+                <lb n="349"/>
+                nostri reclami.</quote>  * Varii municipalisti, fra i quali il Pre-
+              <lb n="350" break="no"/>
+              sidente, furono carcerati e processati ; ed il Leoni mede-
+              <lb n="350" break="no"/>
+              simo venne posto in istato d'accusa davanti il Direttorio
+              <lb n="351"/>
+              Cisalpino ; intèrprete <choice><seg><orig>de'</orig><reg>dei</reg></seg></choice> suoi compaesani, <persName ref="#P_JB">Jacopo Biagia-
+                <lb n="352" break="no"/>
+                rolli</persName> pubblicò,' sotto forma di lettera, una requisitoria vio-
+              <lb n="353" break="no"/>
+              lentissima contro l'antico <hi rend="italic">Commissario organizzatore</hi>, svelan-
+              <lb n="354" break="no"/>
+              done ad una ad una tutte <hi rend="italic">le scelleraggini..., per estirpare dal 
+                <lb n="355"/>
+                felice suolo cisalpino un mostro infame che lo disonora. </hi> (<date when="1798-07">lu-
+                <lb n="356"/>
+                glio 1798</date>). **
+            </ab>
+            <ab xml:id="Paragrafo20_LaCaritaBarone">
+              <lb n="357"/>
+              Ma invece della minacciata condanna, alcuni anni dopo, 
+              <lb n="358"/>
+              la fortuna dei casi politici riserbava all'<hi rend="italic">infame Leoni</hi> un 
+              <lb n="359"/>
+              insperato trionfo presso gli stessi abitanti di Vernio. Poi-
+              <lb n="360" break="no"/>
+              ché, avendo i Bardi, il <date when="1801-08-22">22 agosto 1801</date>, coll'aiuto del cele-
+              <lb n="361" break="no"/>
+              bre avvocato <persName ref="#P_Collini">Collini</persName> ottenuto dal Direttorio un decreto 
+              <lb n="362"/>
+              che dava loro diritto di sperimentare le vie giudiziali per 
+              <lb n="363"/>
+              far riconoscere lo ragioni da essi vantate sopra gli asserti 
+              <lb n="364"/>
+              livelli del loro antico feudo (e con ciò negava autorità al 
+              <lb n="365"/>
+              decreto del commissario da cui erano stato annullate le 
+              <lb n="366"/>
+              vecchie prestazioni), il Leoni apparve ai Verniotti come il 
+              <lb n="367"/>
+              loro più strenuo campione; e d'accordo con due energici 
+              <lb n="368"/>
+              repubblicani, il giusdicente<persName ref="#P_AS">Angelo Sassoli</persName> e il presidente 
+              <lb n="369"/>
+              Abate<persName ref="#P_TM">Tommaso Masi</persName>, capo della Municipalità, non solo 
+              <lb n="370"/>
+              persuase l'universalità dei fittuari a sostenere a spese co-
+              <lb n="371" break="no"/>
+              muni la lite contro i Bardi, ma fece pertecipare anche la 
+              <lb n="372"/>
+              male avventurata Opera Pia a quella causa, che chiamavano 
+              <lb n="373"/>
+              <hi rend="italic">nazionale</hi>. Ed all'Opera Pia, secondo il solito, toccò poi a 
+              <lb n="374"/>
+              pagarne le spese. I Bardi in fatti, vedendo che i procedi-
+              <lb n="375" break="no"/>
+              menti civili non approdavano a nulla (dacché le sentenze 
+              <lb n="376"/>
+              di pignoramento non si potevano eseguire) si volsero ad 
+              <lb n="377"/>
+              altro partito; e così bene si adoperarono presso il governo 
+              <lb n="378"/>
+              del Viceré, succeduto alla seconda Cisalpina, che pattuiro-
+              <lb n="379" break="no"/>
+              no con quest'ultimo nel <date when="1805-09">settembre del 1805</date> una transa-
+              <lb n="380" break="no"/>
+              zione mediante la quale essi promettevano di versare al-
+              <lb n="381" break="no"/>
+              l'erario 15 mila scudi, ed il governo da un lato rinunziava 
+              <lb n="382"/>
+              al diritto eminente che potesse spettargli sui boni contro-
+              <lb n="383" break="no"/>
+              versi, o dall'altro impegnavasi ad usare la propria autorità 
+              <lb n="384"/>
+              per astringere l'Opera Pia a rilasciare in permuta ai Bardi 
+              <lb n="385"/>
+              certe sue ricche fattorie in compenso della cessione di al-
+              <lb n="386" break="no"/>
+              cuni beni (d'assai minor prezzo) o del diritto litigioso di 
+              <lb n="387"/>
+              riscuotere i fitti e i canoni. Tale contratto onerosissimo 
+              <lb n="388"/>
+              per la pia istituzione, non ostante le vive rimostranze del
+              <lb n="389"/>
+              procuratore di essa avvocato <persName ref="#P_GV">Giovanni Vicini</persName>, fu approvato 
+              <lb n="390"/>
+              da una Commissione legale il <date when="1805-09-28">28 settembre 1805</date>, sancito dal 
+              <lb n="391"/>
+              Viceré il <date when="1805-12-04">4 dicembre 1805</date>, nonché dal governo etrusco il 
+              <lb n="392"/>
+              dì 11 maggio, e finalmente stipulato in <placeName ref="#S_M">Milano</placeName> il <date when="1807-05-20">20 mag-
+                <lb n="393" break="no"/>
+                gio 1807</date>. Né le argomentazioni giuridiche e le suppliche
+            </ab>
+            <ab xml:id="Paragrafo21_LaCaritaBarone">
+              <lb n="394"/>
+              eloquenti dell'abate Masi, recatosi appositamente presso il 
+              <lb n="395"/>
+              Viceré, valsero a stornare gli effetti di quella iniqua <hi rend="italic">spo-
+                <lb n="396" break="no"/>
+                liazione, estrema ruina di tante famiglie.</hi> *
+            </ab>
+            <ab xml:id="Paragrafo22_LaCaritaBarone">
+              <lb n="397"/>
+              Né con ciò finirono ancora i danni della Confraternita 
+              <lb n="398"/>
+              di <choice><seg><abbr>S.</abbr><expan>Santo</expan></seg></choice> Niccolò; la quale aveva dovuto abbandonare ai Bardi 
+              <lb n="399"/>
+              i beni attribuiti loro dalla convenzione senza poterne avere 
+              <lb n="400"/>
+              in cambio i compensi o i conguagli promessi. Fu dunque 
+              <lb n="401"/>
+              autorizzata dalla <orgName ref="#O_PIA">Prefettura imperiale dell'Arno</orgName> (giacché 
+              <lb n="402"/>
+              fin dal 1811 Vernio era stato annesso alla <placeName ref="#S_FR">Francia</placeName>) a pro-
+              <lb n="403" break="no"/>
+              muovere dinanzi ai tribunali una definitiva liquidazione. 
+              <lb n="404"/>
+              Succeduta intanto la restaurazione di <persName ref="#P_F3">Ferdinando III</persName>, l'an-
+              <lb n="405" break="no"/>
+              tico feudo divenne una comunità del Granducato, in virtù 
+              <lb n="406"/>
+              dell'atto finale del <orgName ref="#O_CDVienna">Congresso di Vienna</orgName> (<choice><seg><abbr>art.</abbr><expan>articolo</expan></seg></choice> 100, <choice><seg><abbr>n.</abbr><expan>numero</expan></seg></choice> 4); ed 
+              <lb n="407"/>
+              i Bardi ottennero che la cognizione della causa fosse de-
+              <lb n="408" break="no"/>
+              legata al primo turno del <orgName ref="#O_MSF">Magistrato supremo di Firenze</orgName>. 
+              <lb n="409"/>
+              La sostanza della quistione stava sempre nel decidere se i 
+              <lb n="410"/>
+              beni di Vernio fossero o no feudali, e se le prestazioni tra-
+              <lb n="411" break="no"/>
+              dizionali fossero o no dovute dagli abitanti, non ostante la 
+              <lb n="412"/>
+              cessata giurisdizione baronale. Dopo una controversia che 
+              <lb n="413"/>
+              durò quattro anni il Magistrato dette ragione ai Bardi 
+              <lb n="414"/>
+              (<date when="1818-05-28">28 maggio 1818</date>); ma la <orgName ref="#O_RC">Ruota Civile</orgName>, a cui fu commessa 
+              <lb n="415"/>
+              la revisione del processo, fece trionfare il diritto dei Ver-
+              <lb n="416" break="no"/>
+              niotti (<date when="1820-09-05">5 settembre 1820</date>); disgraziatamente un tribunale di 
+              <lb n="417"/>
+              tre giureconsulti a cui con sovrano rescritto fu riserbata l'ul-
+              <lb n="418" break="no"/>
+              tima istanza cassò la sentenza rotale, confermando invece 
+              <lb n="419"/>
+              quella del primo turno del <orgName ref="#O_SC">Supremo Consiglio</orgName> (<date when="1821-06-12">12 giugno 1821</date>). 
+              <lb n="420"/>
+              In questo mentre nuove istruzioni approvate dal governo gran-
+              <lb n="421" break="no"/>
+              ducale il <date when="1819-08-04">4 agosto 1819</date> e conducenti all'allivellazione dei beni 
+              <lb n="422"/>
+              dell'opera pia avevano suscitato dissensi e tumulti; per to-
+              <lb n="423" break="no"/>
+              glier di mezzo il malumore accresciuto dall'infelice esito 
+              <lb n="424"/>
+              della lite, la pia Confraternita investita omai, in forza della 
+              <lb n="425"/>
+              transazione e della sentenza, dei diritti enliteutici che già 
+              <lb n="426"/>
+              spettavano ai Bardi sui beni cedutile, dovette farne rinun-
+              <lb n="427" break="no"/>
+              zia a pro degli utenti, condonando pure il debito delle pre-
+              <lb n="428" break="no"/>
+              stazioni passate.
+            </ab>
+            <ab xml:id="Paragrafo23_LaCaritaBarone">
+              <lb n="429"/>
+              Tale risoluzione sancita con mutoproprio granducale 
+              <lb n="430"/>
+              del <date when="1823-01-30">30 gennaio 1823</date> recò qualche sollievo ai poveri abi-
+              <lb n="431" break="no"/>
+              tanti; ai quali giovarono inoltre l'istituzione di un posto 
+              <lb n="432"/>
+              di studio e altre modificazioni introdotte nei regolamenti 
+              <lb n="433"/>
+              (1821-1831). Con tutto ciò, dice il Fedeli, <hi rend="italic">troviamo sempre 
+                <lb n="434"/>
+                i soliti abusi, le solite dilapidazioni, i soliti lamenti fino al 
+                <lb n="435"/>
+                <date when="1859">1859</date></hi>. Sotto il <orgName ref="#O_RDI">Regno d'Italia</orgName> o in ordino alla legge sulle 
+              <lb n="436"/>
+              Opere pie del <date when="1862-08-03">3 agosto 1862</date>, un nuovo statuto organico 
+              <lb n="437"/>
+              venne promulgato con regio decreto del <date when="1868-09-03">3 settembre 1868</date>; 
+              <lb n="438"/>
+              onde si accesero così vivaci gare personali da porre a ci-
+              <lb n="439" break="no"/>
+              mento l'ordine pubblico e da cagionare l'invio d'un Com-
+              <lb n="440" break="no"/>
+              missario straordinario. Di questi fatti non volle parlare il 
+              <lb n="441"/>
+              diligente raccoglitore delle memorie dell'Opera Pia <hi rend="italic">per non 
+                <lb n="442"/>
+                evocare memorie di ardenti quistioni e di dissidi fortunata-
+                <lb n="443" break="no"/>
+                mente sopiti</hi>. ** Sopiti forse, ma pur troppo non spenti! E 
+              <lb n="444"/>
+              no fu prova la fine crudele di lui medesimo che morì uc-
+              <lb n="445" break="no"/>
+              ciso a tradimento la mattina del <date when="1880-08-10">10 agosto del 1880</date>, vit-
+              <lb n="446"/>
+              tima della rettitudine con cui affrontava gli odi partigiani 
+              <lb n="447" break="no"/>
+              nell'ufficio di segretario comunale. *** Doloroso epilogo di
+              <lb n="448"/> 
+            </ab>
+            <ab xml:id="Paragrafo24_LaCaritaBarone" type="fine">
+              una storia dolorosa ! <addName>Prepotente feudali e prepotenze de-
+                <lb n="449" break="no"/>
+                mocratiche</addName>, arbitrii amministrativi di governi cesarei, re
+              <lb n="450"/>
+              pubblicani o napoleonici, autorità e forze tra loro nemicis-
+              <lb n="451" break="no"/>
+              sime e contendenti, congiurarono del pari ai danni d'una 
+              <lb n="452"/>
+              istituzione che la carità d'un nobile feudatario aveva fondata 
+              <lb n="453"/>
+              pei suoi poveri vassalli! In verità lo spettacolo di quella 
+              <lb n="454"/>
+              lunga serie di iniquità per cui un pio patrimonio, ricco in 
+              <lb n="455"/>
+              origine d'un milione o mezzo, è ora ridotto a meno di 18 
+              <lb n="456"/>
+              mila lire di rendita, richiamerebbe alle labbra l'impreca-
+              <lb n="457" break="no"/>
+              zione di Bruto minore, ove non soccorresse, insieme <choice><seg><orig>colla</orig><reg>con la</reg></seg></choice> 
+              <lb n="458"/>
+              cara immagine del buon conte Ridolfo, il generoso pensiero 
+              <lb n="459"/>
+              al quale egli informò le sue disposizioni, cioè che bisogna 
+              <lb n="460"/>
+              amare e beneficare gli uomini pur conoscendo come sogliano 
+              <lb n="461"/>
+              esser tristi ed ingrati!  
+            </ab>
+            <byline><persName type="real" ref="#P_Franchetti">Augusto Franchetti</persName></byline>
+          
+          <!--NOTE TUTTE-->
+          <note xml:id="nota1" place="foot">
+            La valle onde il Bisenzio si declina — Del padre loro Alberto e di 
+            <lb/>
+            lor fue. — D'un corpo uscir e tutta la Caina — Potrai cercare e non 
+            <lb/>
+            troverai ombra — Degna più d'esser fitta in gelatina. — <persName ref="#P_DA">Dante</persName>, <hi rend="italic"><choice><seg><abbr>Comm.</abbr><expan>Commedia</expan></seg></choice></hi>
+            <lb/>
+            <choice><seg><abbr>Inf.</abbr><expan>Inferno</expan></seg></choice> XXXII. 56. Vedi anche Repetti, <hi rend="italic"><choice><seg><abbr>Diz.</abbr><expan>Dizionario</expan></seg></choice> <choice><seg><abbr>geogr.</abbr><expan>geografico</expan></seg></choice> fisico storico della Tosca-</hi>    
+          </note>
+          <note xml:id="nota1b" place="foot">
+            <lb/>
+            <hi>na</hi>, V, 696 — Vittorio Ugo Fedeli <hi rend="italic">L'opera pia di San Niccolò di Bari 
+              <lb/>
+              in Vernio</hi>, Studio storico, <placeName ref="#S_Prato">Prato</placeName>, <orgName ref="#O_TA"><choice><seg><abbr>tip.</abbr><expan>tipografia</expan></seg></choice> Aldina</orgName>, <date when="1875">1875</date>: le principali notizie del 
+            <lb/>
+            presente articolo sono tratte parte dall'<orgName ref="#O_ADFir">Archivio di Firenze</orgName> e in parte dal detto
+            <lb/>
+            volume, sovrabbondante di erudizione e non scarso di rettorica, ma prege-
+            <lb break="no"/>
+            vole pei documenti autentici citati in estratto o riprodotti per disteso.
+            <lb/>
+          </note>
+          <note xml:id="nota2_3" place="foot">
+            <hi rend="italic">Note autografe</hi> in <choice><seg><abbr>op. cit.</abbr><expan>opportuna citazione</expan></seg></choice>, <choice><seg><abbr>cap.</abbr><expan>capitolo</expan></seg></choice> III, <choice><seg><abbr>p.</abbr><expan>pagina</expan></seg></choice> 31.
+            <lb/>
+            <choice><seg><abbr>Id.</abbr><expan>?</expan></seg></choice>, <choice><seg><abbr><foreign xml:lang="la">Ibid.</foreign>.</abbr><expan>?</expan></seg></choice> Narra che per pagare l'annuo tributo i vassalli si sot-
+            <lb break="no"/>
+            toponevano a fatiche intollerabili, stando <quote>tutto il giorno digiuni... 
+              <lb/>
+              a zappare <choice><seg><orig>de'</orig><reg>dei</reg></seg></choice> balzi e piagge all'eccessivo caldo o estremo freddo e diac-
+              <lb/>
+              cio e pioggia</quote>; e tornati la sera ai propri abituri, trovavano <quote>appena 
+              <lb break="no"/>
+              quattro castagne cotte da sdigiunarsi, nè avevano uno straccio di cen-
+              <lb/>
+              cio da mutarsi, nè un poco di coperta da rinvoltarsi sopra un paglie-
+              <lb break="no"/>
+              riccio, ma solo avevano due legne in un cante di casuccia da farvi 
+              <lb break="no"/>
+              fuoco e poi <choice><seg><orig>quivi</orig><reg>quindi</reg></seg></choice> dormire in terra coi piedi al fuoco</quote>.
+          </note>
+          
+          <note xml:id="nota4_5_6" place="foot">
+            <persName ref="#P_Fedeli">Fedeli</persName>, <choice><seg><abbr>op. cit.</abbr><expan>opportuna citazione</expan></seg></choice>, <choice><seg><abbr>cap.</abbr><expan>capitolo</expan></seg></choice> V, VI e VII, <choice><seg><abbr>pp.</abbr><expan>pagine</expan></seg></choice> 37–55.
+            <lb/>
+            <choice><seg><abbr><foreign xml:lang="la">Ibid.</foreign>.</abbr><expan>?</expan></seg></choice>, <choice><seg><abbr>cap.</abbr><expan>capitolo</expan></seg></choice> VIII, <choice><seg><abbr>p.</abbr><expan>pagina</expan></seg></choice> 50 e <choice><seg><abbr>segg.</abbr><expan>seguenti</expan></seg></choice>
+            <lb/>
+            Belle e commoventi sono le parole vergate a stento dal conte
+            <lb/>
+            Rodolfo <choice><seg><abbr>ne'</abbr><expan>nei</expan></seg></choice> suoi ultimi giorni, con le mani storpiate dalla chiragra: <quote>E se 
+              <lb/>
+              io avrò fortuna di godere della divina grazia di nostro Signore in cielo..., 
+              <lb/>
+              non mancherò di pregarlo sempre per la conservazione e mantenimento 
+              <lb/>
+              di quel bene di carità....</quote>. Ed aggiunge che, ove non fosse impedito dallo 
+            <lb/>
+            scrivere, <quote>si esprimerebbero più e meglio nel desiderio che la sua inten-
+              <lb break="no"/>
+              zione fosse proseguita eternamente con ottimo zelo di servizio di no-
+              <lb break="no"/>
+              stro Signore Dio benedetto e benefizio e carità verso quei popoli per 
+              <lb/>
+              lo più stati mal nutriti per la mendicità e peggio educati ed allevati 
+              <lb/>
+              per la molta ignoranza e negligenza....</quote>. <hi rend="italic">Note autografe</hi>, in <choice><seg><abbr>op. cit.</abbr><expan>opportuna citazione</expan></seg></choice>, 
+            <lb/>
+            <choice><seg><abbr>cap.</abbr><expan>capitolo</expan></seg></choice> IX, <choice><seg><abbr>p.</abbr><expan>pagina</expan></seg></choice>71.
+          </note>
+          
+          <note xml:id="nota7_8_9_10" place="foot">
+            *1 Archivio di Stato di Firenze, (<hi rend="italic">Riformazioni</hi>), <choice><seg><abbr>Cl.</abbr><expan>Classe</expan></seg></choice> VI, filza <choice><seg><abbr>n.</abbr><expan>numero</expan></seg></choice> 65 (<choice><seg><abbr><choice><seg><abbr>St.</abbr><expan>Stazione</expan></seg></choice></abbr><expan>Stazione</expan></seg></choice> III, 
+            <lb/>
+            <choice><seg><abbr><choice><seg><abbr>Arm.</abbr><expan>Armata</expan></seg></choice></abbr><expan>Armata</expan></seg></choice> 8). Processo contro <persName ref="#P_Tocca"><choice><seg><abbr>Seb.</abbr><expan>Sebastiano</expan></seg></choice> Toccafondi</persName>, <persName ref="#P_Fedeli">Andrea Fedeli</persName> e altri, 
+            <lb/>
+            per tumulti, arbitrii, iattanze e minacce contro la <choice><seg><abbr>pers.a</abbr><expan>persona</expan></seg></choice> dell'<choice><seg><abbr>Ill.mo Sig. C.e Ab. 
+                  <lb/>
+                  Fl. de B. feud.</abbr><expan>Illustrissimo Signore Conte Abate <choice><seg><orig>de'</orig><reg>dei</reg></seg></choice> Bardi, feudatario</expan></seg></choice>(<date when="1778-05-01/1778-06-30">maggio–giugno 1778</date>- Carte 211). <choice><seg><orig>Ivi</orig><reg>Qui</reg></seg></choice> si trovano molte
+            <lb/>
+            lettere, ordini e editti del Conte Abate, varii pareri, informazioni, do-
+            <lb break="no"/>
+            cumenti, oltre alle produzioni e ai depositi di 56 testimoni fiscali, ecc.
+            <lb/>
+            - Notevole è tra le altre la <hi rend="italic">confidenza</hi> di un frate il quale scrive il
+            <lb/>
+            <date when="1778-04-14">14 aprile 1778</date> che un suo <hi rend="italic">Padrone</hi>, incaricato da <persName ref="#P_PL">Pietro Leopoldo</persName>, di
+            <lb/>
+            ragguagliarlo sulle lagnanze dei Verniotti, gli disse in segretezza : <quote>Ve-
+              <lb break="no"/>
+              drete con un poco di tempo andare all'aria questa Contea ed essere
+              <lb/>
+              tutto Sato del granduca.</quote> E trasmesse pure una copia (che potè fare
+            <lb/>
+            di nascosto) dalle <hi rend="italic">informazioni di fatto</hi> composte dallo stesso suo <hi rend="italic">Pa-
+              <lb break="no"/>
+              drone</hi>. Carte 5-10.  
+            <lb/>
+            *2 <hi rend="italic"><choice><seg><abbr>Mem. msc.</abbr><expan>Memorie miscellanee</expan></seg></choice> di <persName ref="#P_Fedeli">Andrea Fedeli</persName></hi>, <choice><seg><abbr>v. o<choice><seg><abbr>pp.</abbr><expan>pagine</expan></seg></choice>cit.</abbr><expan>vedi opportuna citazione</expan></seg></choice>, <choice><seg><abbr>cap.</abbr><expan>capitolo</expan></seg></choice>XI,<choice><seg><abbr>p.</abbr><expan>pagina</expan></seg></choice>87 - V. an-
+            <lb/>
+            che <choice><seg><abbr>cap.</abbr><expan>capitolo</expan></seg></choice>X, <choice><seg><abbr>p.</abbr><expan>pagina</expan></seg></choice>78 e <choice><seg><abbr>seg.</abbr><expan>seguenti</expan></seg></choice>
+            <lb/>
+            *3 ZOBI, <hi rend="italic">Storia della Toscana</hi>, lib. VI, <choice><seg><abbr>cap.</abbr><expan>capitolo</expan></seg></choice>X, t. II, <choice><seg><abbr>p.</abbr><expan>pagina</expan></seg></choice>464.
+            <lb/>
+            *4 Archivio di Stato di Firenze, <hi rend="italic">Provvedimenti sopra i ricorsi dei 
+              <lb/>
+              Verniotti</hi> ecc. Classe VI, filza <choice><seg><abbr>n.</abbr><expan>numero</expan></seg></choice>66. Negoziato per la vendita di 
+            <lb/>
+            Vernio. <foreign xml:lang="la">Ibid.</foreign>., filza <choice><seg><abbr>n.</abbr><expan>numero</expan></seg></choice>67.
+          </note>
+          
+          
+          
+          <note xml:id="nota11_12_13" place="foot">
+            * Fedeli, op. cit., <choice><seg><abbr>cap.</abbr><expan>capitolo</expan></seg></choice>IX, <choice><seg><abbr>p.</abbr><expan>pagina</expan></seg></choice>67 e <choice><seg><abbr>seg.</abbr><expan>seguenti</expan></seg></choice>; Macchini, <hi rend="italic">Expositio ra-
+              <lb/>
+              tionum pro Ill. Celsit. <choice><seg><abbr>p.</abbr><expan>pagina</expan></seg></choice>Leopoldi... ut jubeatur resolutio diei XVI oct. 
+              <lb/>
+              MDCCLXXXVII.</hi> Ex typ. Cambiagi, Florentiae, <date when="1788">1788</date>.
+            <lb/>
+            ** <hi rend="italic">Leggi pubblicate dai Conti Bardi</hi> ecc., in FEDELI, <choice><seg><abbr>cap.</abbr><expan>capitolo</expan></seg></choice>XII, <choice><seg><abbr>p.</abbr><expan>pagina</expan></seg></choice>95. 
+            <lb/>
+            Trovasi una copia a stampa del <hi rend="italic">Regolamento</hi> medesimo nell'Archivio di 
+            <lb/>
+            Firenze, loc. cit. filza <choice><seg><abbr>n.</abbr><expan>numero</expan></seg></choice>66, fascicolo IV, insieme con le nuove sup-
+            <lb break="no"/>
+            pliche dei Verniotti e i pareri dell'Alberti e di altri consiglieri granducali.
+            <lb/>
+            *** Archivio di Firenze, filza <choice><seg><abbr>n.</abbr><expan>numero</expan></seg></choice>66, <choice><seg><abbr>fasc.</abbr><expan>fascicolo</expan></seg></choice> VIII, carte 101–102 e <choice><seg><abbr>seg.</abbr><expan>seguenti</expan></seg></choice>
+          </note>
+          
+          
+          <note xml:id="nota14_15_16" place="foot">
+            *  <foreign xml:lang="la">Ibid.</foreign>., <choice><seg><abbr>fasc.</abbr><expan>fascicolo</expan></seg></choice> VIII, carte 79–96.
+            <lb/>
+            ** <foreign xml:lang="la">Ibid.</foreign>., <choice><seg><abbr>fasc.</abbr><expan>fascicolo</expan></seg></choice> IX. ove sono <quote>tutti i fogli dimostrativi delle cabale
+              <lb/>
+              e ragguaglio fatto da esso ab. Flaminio e dai Bardi ecc.</quote> <choice><seg><abbr>V.</abbr><expan>Vedi</expan></seg></choice>V. anche le
+            <lb/>
+            f. 67–76 (Classe VI, <choice><seg><abbr>St.</abbr><expan>Stazione</expan></seg></choice> III, <choice><seg><abbr>Arm.</abbr><expan>Armata</expan></seg></choice> 8). - Negoziati per la vendita di Ver-
+            <lb break="no"/>
+            nio; negoziati alla corte <choice><seg><abbr>Imp.</abbr><expan>Imperiale</expan></seg></choice> per la difesa dei diritti della corona 
+            <lb/>
+            di Toscana - Processo degli atti dei Bardi... - esposizione delle ra-
+            <lb break="no"/>
+            gioni di S'.A.R. (con la memoria latina a stampa del Maccioni) - Pre-
+            <lb break="no"/>
+            sent. e duplic. dei somm. dei doc. esibiti all'I. Consiglio.
+            <lb/>
+            *** <persName ref="#P_G2">Giuseppe II</persName> scriveva al fratello Leopoldo il <date when="1797-10-18">18 ottobre 1797</date>:
+            <lb/>
+            <quote><foreign xml:lang="fr">Quante à votre odieuse affaire avec les feudataires d'Empire, Bardi, 
+                <lb/>
+                vous verrez ce que j'ai résolu. Le conseil aulique continuera la mar-
+                <lb break="no"/>
+                che juridique et vous ferez un recours à la Diète qui suspend toute 
+                <lb/>
+                ultérieure démarche</foreign></quote>. E <persName ref="#P_PL">Pietro Leopoldo</persName> rispondeva il 29 <quote><foreign xml:lang="fr">Selon 
+                <lb/>
+                votre avis je ne manquerai pas de faire en son temps un recours dans 
+                <lb/>
+                les formes à la Diète. Cette affaire qui dans le fond ne vaut rien, est 
+                <lb/>
+                bien longue et ennuyante; elle ne m'intéresse aucunement; mais sans 
+                <lb/>
+                y avoir ni intérêt ni passion, je puis vous assurer que la Toscane y a 
+                <lb/>
+                raison</foreign></quote>. <hi rend="italic">Joseph und Leopold von Toscana, ihr Briefwechsel</hi>, her. v A. v. 
+            <lb/>
+            Arneth, II, 132 e 137, Wien, Braunmüller, 1872. E' da credere che la
+            <lb/>
+            tepidezza dimostrata dal granduca derivasse da delicato riserbo, nelle
+            <lb/>
+            sue relazioni affettuose ma non sempre comode col fratello. <choice><seg><abbr>V.</abbr><expan>Vedi</expan></seg></choice> <foreign xml:lang="la">Ibid.</foreign>.
+            <lb/>
+            II, 123, 125.
+            <lb/>
+            La citata frase di <persName ref="#P_G2">Giuseppe II</persName> trovasi da lui trascritta in un fo-
+            <lb break="no"/>
+            glietto intercalato nella filza del nostro Archivio di Stato <choice><seg><abbr>n.</abbr><expan>numero</expan></seg></choice>68, <hi rend="italic">Ne-
+              <lb break="no"/>
+              goziati alla corte Imp.</hi> (Classe VI, <choice><seg><abbr>St.</abbr><expan>Stazione</expan></seg></choice> III, A. 8) Fascic. V. c. 289.
+          </note>
+          
+          <note xml:id="nota17_18" place="foot">
+            * FEDELI, op. cit., <choice><seg><abbr>cap.</abbr><expan>capitolo</expan></seg></choice>XII e XIII, <choice><seg><abbr>pp.</abbr><expan>pagine</expan></seg></choice>96 e 113. In calce alla
+            <lb/>
+            ricordata filza, <choice><seg><abbr>n.</abbr><expan>numero</expan></seg></choice>68, dopo la carta 393, vi sono alcuni fogli volanti 
+            <lb/>
+            e una mem. dell'avv. regio sopra una nuova proposta di vendita del <date when="1789-11-18">18 
+              <lb/>
+              nov. 1789</date> e i punti preliminari del trattato (<date when="1790-05-03">3 maggio 1790</date>).
+            <lb/>
+            ** FEDELI cit., <hi rend="italic">Mem. ms.</hi>, <foreign xml:lang="la">Ibid.</foreign>., <choice><seg><abbr>cap.</abbr><expan>capitolo</expan></seg></choice>XIV, <choice><seg><abbr>p.</abbr><expan>pagina</expan></seg></choice>116-129.
+          </note>
+          
+          
+          <note xml:id="nota19_20" place="foot">
+            ** <hi rend="italic">Mem. ms. di J. Fedeli</hi> e altri doc., in op. cit., <choice><seg><abbr>cap.</abbr><expan>capitolo</expan></seg></choice>XIV, <choice><seg><abbr>p.</abbr><expan>pagina</expan></seg></choice>125.
+            <lb/>
+            <hi rend="italic">Chi è interrogato risponde. Lettera degli abitanti del Bisenzo a
+              <lb/>
+              Raimondo Leoni</hi>, ex-commissario organizzatore dello stesso distretto,
+            <lb/>
+            scritta li 12 termidoro, anno VI della Repub. da Jacopo Biagiarelli,
+            <lb/>
+            aiutante maggiore della Guardia nazionale. In Bologna, per le stampe
+            <lb/>
+            del <hi rend="italic">Genio Democratico</hi> (<date when="1798">1798</date>). Vedi anche: <hi rend="italic">Verità trionfante presso il
+              <lb/>
+              popolo del Bisenzo</hi> (e, <choice><seg><orig>ivi</orig><reg>qui</reg></seg></choice>, le lettere di G. B. Pozzi e di R. Leoni). - 
+            <lb/>
+            Bologna, 1798, in op. cit., <choice><seg><abbr>cap.</abbr><expan>capitolo</expan></seg></choice>XIV, p.116 e 122.
+          </note>
+          
+          
+          <note xml:id="nota21_22_23" place="foot">
+            * <choice><seg><abbr>V.</abbr><expan>Vedi</expan></seg></choice> il ricorso del Masi riportato per disteso in FEDELI, Op. cit.
+            <lb/>
+            <choice><seg><abbr>cap.</abbr><expan>capitolo</expan></seg></choice>XVI pag, 136 e <choice><seg><abbr>seg.</abbr><expan>seguenti</expan></seg></choice> e le clausole del contratto <foreign xml:lang="la">Ibid.</foreign>. <choice><seg><abbr>cap.</abbr><expan>capitolo</expan></seg></choice>XV,
+            <lb/>
+            pag. 126 e seg.
+            <lb/>
+            ** Parole della <hi rend="italic"><choice><seg><abbr>Relaz.</abbr><expan>Relazione</expan></seg></choice>letta del R. Delegato straordinario <choice><seg><abbr>avv.</abbr><expan>avvocato</expan></seg></choice> <persName ref="#P_Badini">Al-
+                <lb break="no"/>
+                fonso Badini Confalonieri</persName>, nell'atto che insediava il nuovo <choice><seg><abbr>cons. com.</abbr><expan>consigliere comunale</expan></seg></choice>
+              <lb/>
+              <unclear reason="illegible" quantity="1" unit="word">???</unclear> <date when="1869-04-04">4 aprile 1869</date>.</hi> Firenze, <orgName ref="#O_TipF"><choice><seg><abbr>Tip.</abbr><expan>Tipografia</expan></seg></choice> Fodratti</orgName>, <date when="1869">1869</date>. <choice><seg><abbr>Op. cit.</abbr><expan>Opportuna citazione</expan></seg></choice> <choice><seg><abbr>cap.</abbr><expan>capitolo</expan></seg></choice>XXII,
+            <lb/>
+            <choice><seg><abbr>p.</abbr><expan>pagina</expan></seg></choice>206. _ <choice><seg><abbr>V.</abbr><expan>Vedi</expan></seg></choice> anche <choice><seg><abbr>cap.</abbr><expan>capitolo</expan></seg></choice>XVIII <choice><seg><abbr>seg.</abbr><expan>seguenti</expan></seg></choice> XXII <choice><seg><abbr>p.</abbr><expan>pagina</expan></seg></choice>159 e <choice><seg><abbr>seg.</abbr><expan>seguenti</expan></seg></choice>
+            <lb/>
+            *** Il processo si svolse davanti alla Corte d'Assise di Firenze negli 
+            <lb/>
+            ultimi giorni dello scorso anno e finì con la condanna degli assassini 
+            <lb/>
+            promulgata il <date when="1880-12-30">30 dicembre 1880</date>: apparve da esso come il popolo di 
+            <lb/>
+            Cavarnno fosse diviso in due fazioni, quella del prete e quella del 
+            <lb/>
+            cappellano; altra uccisione commessa antecedentemente per tali odi di
+            <lb/> 
+            parte rimase impunita per essendosi scoperto l'autore; quella del
+          </note>
+          
+          
+          <note xml:id="nota23b_24" place="foot">
+            Fedeli ebbe pure un motivo di vendetta personale per aver egli rifiu-
+            <lb break="no"/>
+            tato di rilasciare un attestato falso. - <choice><seg><abbr>V.</abbr><expan>Vedi</expan></seg></choice> i resoconti giudiziari nei
+            <lb/>
+            giornali di Firenze del <date when="1880-12-30">30 e 31 dicembre 1880</date>.
+            <lb/>
+            * <hi rend="italic">Louis XIV et Marie Mancini</hi>, d'apres neuveaux documents,
+            <lb/>
+            par R.CHANTELAUZE - Paris, Didier.
+          </note>
+          </div>
+        </body>
+      </text>
+      
+      <text xml:id="PoveroCane">        
+        <body>
+          <div xml:id="img8_9">
+            <head rend="center">
+              <hi rend="bold">UN POVERO CANE</hi>
+              <lb/>
+            </head>
+            <ab xml:id="Paragrafo1_PoveroCane">
+              <lb n="1"/>
+              Alla <placeName ref="#S_Cascina">cascina Mornata</placeName> pranzavano già da un'ora buona, 
+              <lb n="2"/>
+              fra un gran tintinnio di piatti e di bicchieri, intorno a 
+              <lb n="3"/>
+              una lunga tavola in una stanza a terreno, innanzi a un im-
+              <lb n="4" break="no"/>
+              menso' camino, dove bruciava tutto un albero. <persName ref="#P_Rocco">Rocco</persName> l'affit-
+              <lb n="5"/>
+              taiuolo pagava ogni anno cinquanta mila lire di fitto in 
+              <lb n="6"/>
+              buona moneta all'amministratore <choice><seg><orig>de'</orig><reg>dei</reg></seg></choice><orgName ref="#O_LuoghiPii">Luoghi Pii</orgName> e aveva 
+              <lb n="7"/>
+              dunque il diritto di, mangiar bene e di portarsi attorno il 
+              <lb n="8"/>
+              suo bel ventre rotondo come una botticella. Sopra una ma-
+              <lb n="9" break="no"/>
+              dia rasente al muro stavano schierate cinquanta bottiglie 
+              <lb n="10"/>
+              di sordido aspetto, pescate proprio per l'occasione solenne 
+              <lb n="11"/>
+              del <date type="religious">Santo Natale</date> nei buchi più profondi della cantina. In 
+              <lb n="12"/>
+              cucina soffriggeva ancora sui fornelli in due enormi tegami 
+              <lb n="13"/>
+              un gran bagno di burro: nella stufa coceva a goccia a goccia 
+              <lb n="14"/>
+              un pasticcio di piccioni e di midolle <choice><seg><orig>colla</orig><reg>con la</reg></seg></choice> crosta di fior di 
+              <lb n="15"/>
+              farina e zucchero, cosa leggiera, digestiva, che si può man-
+              <lb n="16" break="no"/>
+              giar sempre senza pericolo. Quando i due grossi tacchini, 
+              <lb n="17"/>
+              color di rame, e sudati come la pelle d'un villano al sol 
+              <lb n="18"/>
+              di luglio, comparvero fra due grandi insalate e fra gli ev-
+              <lb n="19" break="no"/>
+              viva di tutti sulla tavola, a <persName ref="#P_Giacotto" >Giacotto</persName>, il più giovane dei 
+              <lb n="20"/>
+              figli di <persName ref="#P_Rocco">Rocco</persName>, vennero i lucciconi, perchè il poveretto s'era 
+              <lb n="21"/>
+              sbadatamente lasciato andare sul lesso e sulla minestra e 
+              <lb n="22"/>
+              non si sentiva più vuoto un buco. Papà <persName ref="#P_Rocco">Rocco</persName> prese l'oc-
+              <lb n="23" break="no"/>
+              casione per dare al figliolo una lezione di prudenza, di-
+              <lb break="no"/>
+              cendo che in questo mondo bisogna aver «occhio alle
+              <lb/>
+              cose» se non si vuole poi o patire o pagare di borsa.
+            </ab>
+            <ab xml:id="Paragrafo2_PoveroCane">
+              <lb/>
+              Ai tacchini coll'insalata, tenne dietro la panna coi 
+              <lb/>
+              biscotti e col pan di Spagna, una cosa leggiera o fresca 
+              <lb/>
+              che mollifica e unge la macchina: poi la frutta e il for-
+              <lb break="no"/>
+              maggio, che ci vuole, si sa; poi ancora una gelatina dolce 
+              <lb/>
+              e tremolante nell'aria come il sogno d'una bionda ingle-
+              <lb break="no"/>
+              sina innamorata, una spuma, buon dio! che svapora nello 
+              <lb/>
+              stomaco. Poi.... non so più, ma il <persName ref="#P_Basolone">Basolone</persName>, cioè il cuoco 
+              <lb/>
+              della <placeName ref="#S_Cascina">cascina Mornata</placeName>, strizzava l'occhio al sor <persName ref="#P_Rocco">Rocco</persName>, 
+              <lb/>
+              <choice><seg><orig>colla</orig><reg>con la</reg></seg></choice> faccia contenta per dirgli che questa volta erano riu-
+              <lb break="no"/>
+              sciti «a tiro».<said who="#P_Rocco" aloud="true">— Che cosa?</said> <said who="#P_Basolone" aloud="true">— Zitto, non lo si deve dire.</said> 
+              <lb/>
+              <said who="#P_tutti" aloud="true">— Sì, parla, vogliamo saperlo.</said> <said who="#P_Rocco" aloud="true">— Dopo il caffè.</said> <said who="#P_tutti" aloud="true">— No, su-</said>
+              <lb break="no"/>
+              bito. <said who="#P_Rocco" aloud="true">— Si</said> <said who="#P_tutti" aloud="true">— no.</said>
+            </ab>
+            <ab xml:id="Paragrafo3_PoveroCane">
+              <lb/>
+              La <persName ref="#P_Celeste">Celeste</persName>, una bambina gracile e smorta, allieva delle 
+              <lb/>
+              monache, figlia d'una figlia di <persName ref="#P_Rocco">Rocco</persName>, la quale sapeva an-
+              <lb break="no"/>
+              ch'essa «farsi onore» a tavola, saltò su a dire: <said who="#P_Celeste" aloud="true">Sono i 
+                <lb/>
+                sorbetti!</said> — o picchiava sul piatto, come se fosse stato un
+              <lb/>
+              tamburo.
+            </ab>
+            <ab xml:id="Paragrafo4_PoveroCane">
+              <lb/>
+              <said who="#P_Celeste" aloud="true">— Viva <persName ref="#P_Basolone">Basolone</persName> !</said> — urlò tutta la brigata, alzando il 
+              <lb/>
+              bicchiere, e anche i due bracchi si misero ad abbaiare con 
+              <lb/>
+              tanta gola da far tremare i vetri.
+            </ab>
+            <ab xml:id="Paragrafo5_PoveroCane">
+              <lb/>
+              La <placeName ref="#S_Cascina">cascina Mornata</placeName> era un vasto casolare quadrato, 
+              <lb/>
+              poco alto, livido, col tetto storto, coi pilastri rosicchiati, 
+              <lb/>
+              colle altane di legno rustico, chiuso da un largo portico 
+              <lb/>
+              pure a pilastri, dov'erano le cascine del fieno, della paglia 
+              <lb/>
+              e dello strame. In mezzo si apriva la corte ingombra di 
+              <lb/>
+              carri, di attrezzi, di botti, sparsa di letame che, misto 
+              <lb/>
+              alla neve pesta, sgocciolava in una gora color cioccolata 
+              <lb/>
+              verso l'imboccatura della porta. Chi non aveva stivali a  
+              <lb/>
+              tromba correva rischio di non uscirne più, e i due bracchi, 
+              <lb/>
+              che correvano incontro alle carrozze, vi si impiastriccia-
+            </ab>
+            <ab xml:id="Paragrafo6_PoveroCane">
+              <lb break="no"/>
+              vano fin sopra lo orecchie. A destra erano le stalle con 
+              <lb/>
+              duecento vacche: a sinistra la stalla con dieci poledri, in 
+              <lb/>
+              fondo il pollaio, sulle mensole le case dei piccioni, di qua 
+              <lb/>
+              il porcile, di là l'abitazione del padrone.
+            </ab>
+            <ab xml:id="Paragrafo7_PoveroCane">
+              <lb/>
+              Al fianco di <persName ref="#P_Rocco">Rocco</persName> sedeva, a tavola, la mamma <persName ref ="#P_Giuditta">Giu-
+                <lb break="no"/>
+                ditta</persName>, una donna che aveva avuta la sua storia galante nei 
+              <lb/>
+              tempi che i ricci non erano così radi e bianchi; d'allora 
+              <lb/>
+              conservava bene una carnagione fresca e signorile, sotto 
+              <lb/>
+              una velatura di cipria, e gli occhi — veri occhi assassini, 
+              <lb/>
+              che avevano scombussolato più volte i bilanci dell' ammi-
+              <lb break="no"/>
+              nistrazione. Seguendo un'antica abitudine di molti anni, 
+              <lb/>
+              sedeva alla sua destra anche l'amministratore, il quale 
+              <lb/>
+              <choice><seg><orig>de'</orig><reg>dei</reg></seg></choice> vecchi tempi anche lui non aveva conservato che i 
+              <lb/>
+              denti e il cuoro sempre disposto. <choice><seg><abbr>De'</abbr><expan>Dei</expan></seg></choice> figli di <persName ref="#P_Rocco">Rocco</persName> non 
+              <lb/>
+              mancava che il povero <persName ref="#P_Pippo">Pippo</persName>, morto <date type="religious">sei mesi prima</date> d'una 
+              <lb/>
+              indigestione di cocomeri. Una disgrazia è sempre una di-
+              <lb break="no"/>
+              sgrazia, ma dopo sei mesi e in una circostanza come que-
+              <lb break="no"/>
+              sta è permesso d'aver appetito: padre, madre, e figliuoli 
+              <lb/>
+              mangiavano dunque allegramente. Questi specialmente, dai 
+              <lb/>
+              quindici ai treni'anni, seduti alla rinfusa, vestiti di larghe 
+              <lb/>
+              cacciatore di velluto a bottoni di rame, con certi stoma-
+              <lb break="no"/>
+              chi.... mangiavano da bravi cacciatori, ridendo e gridando 
+              <lb/>
+              per cinquanta. La figliuola era venuta con suo marito e con 
+              <lb/>
+              la bambina. Splendeva di gioielli come una madonna di 
+              <lb/>
+              villaggio e il suo vestito di seta, color sangue, mandava 
+              <lb/>
+              trasparenze e fosforescenze come le penne dei capponi.
+            </ab>
+            <ab xml:id="Paragrafo8_PoveroCane">
+              <lb/>
+              Il fuoco scoppiettava nel camino tal quale fanno i mortai 
+              <lb/>
+              d'una sagra: i due bracchi ripulivano in un fiat certe sco-
+              <lb break="no"/>
+              delle di roba da far morire di pienezza, solo a vederle, un 
+              <lb/>
+              maestro rurale. Papà <persName ref="#P_Rocco">Rocco</persName> beveva il vino nella sua tazza 
+              <lb/>
+              col manico: «Perchè — diceva—il vino col manico è più 
+              <lb/>
+              buono, nè crediate che sia tutto qui. Votate queste, ce ne 
+              <lb/>
+              sono altre cinquanta più vecchie, che se le versassimo 
+              <lb/>
+              sui poveri morti, vedremmo dei miracoli. Bevete, ragazzi, 
+              <lb/>
+              che il fitto è pagato, che i fienili sono pieni, e gli affari 
+              <lb/>
+              non vanno come vuole il diavolo. La massaia ha contato 
+              <lb/>
+              sessanta oche, cinquanta pulcini, dodici dozzine di uova la 
+              <lb/>
+              settimana. C'è da far correre una barca nella crema. La 
+              <lb/>
+              Bianca o la Bersagliera hanno ottenuto un premio alla 
+              <lb/>
+              esposizione di <placeName ref="#S_NO">Novara</placeName> e vacche con sì belle poppe non ce 
+              <lb/>
+              ne sono neanche a <placeName ref="#S_M1">Milano</placeName>, dico giusto, sor ragioniere? 
+              <lb/>
+              dunque — concludeva <persName ref="#P_Rocco">Rocco</persName> l'affittaiuolo col faccione rosso 
+              <lb/>
+              come un coperchio di rame — beviamo e stiamo allegri 
+              <lb/>
+              che il <date type="religious">Santo Natale</date> viene una volta sola all'anno o date 
+              <lb/>
+              ascolto a vostro padre che beve il vino col manico. Vostro 
+              <lb/>
+              padre è vecchio, ma non si è lasciato mai infinocchiare da 
+              <lb/>
+              nessuno. Chi si lascia infinocchiare dalle belle parole è un 
+              <lb/>
+              babbeo degno di mangiare pane di crusca. Occhio ci vuole 
+              <lb/>
+              <said who="#P_Rocco" aloud="true">— bada, <persName ref="#P_Giacotto">Giacotto</persName>, — <term type="verbum">occhio alle cose</term></said> e non credere mica 
+              <lb/>
+              che il mondo s'abbia a cambiare domattina per far piacere 
+              <lb/>
+              a quei signori là, che scrivono sui giornali o che mandano 
+              <lb/>
+              le richieste sulla <term type="theme">pellagra</term>, che mandano...
+            </ab>
+            <ab xml:id="Paragrafo9_PoveroCane">
+              <lb/>
+              <said who="#P_cane" aloud="true">— ....Uh! uh! uh!...</said> — A un tratto s'intese questo la-
+              <lb break="no"/>
+              mento dal fondo perduto dei campi.
+              <lb/>
+              <said who="#P_tutti" aloud="true">— Cos'è? sentite.</said>
+              <lb/>
+              Tutti fecero silenzio, ascoltarono e intesero di nuovo: 
+              <lb/>
+              Uh ! uh ! bub, bub ! dal fondo perduto dei campi coperti 
+              <lb/>
+              di neve.
+              <lb/>
+              <said who="#P_tutti" aloud="true">— E' un cane o è un'anima del purgatorio che fa que-</said>
+              <lb break="no"/>
+              sto versaccio?
+              <lb/>
+              <said who="#P_Basolone" aloud="true">— E' un cane.</said>
+              <lb/>
+              <said who="#P_Rocco" aloud="true">— So che la <date type="religious">notte di Natale</date> le anime vanno attorno.</said> 
+              <lb/>
+              <said who="#P_tutti" aloud="true">Saranno bubbole, ma anche ai morti deve rincrescere di 
+                <lb/>
+                non poter mettere i piedi sotto la tavola.</said>
+              <lb/>
+              <said who="#P_Rocco" aloud="true">— Sai tu, <persName ref="#P_Giacotto">Giacotto</persName>, di chi sia questo cane?</said>
+              <lb/>
+              <said who="#P_Giacotto" aloud="true">— È del <persName ref="#P_Pattina">Pattina</persName> che fu trovato morto <date type="religious">l'altro giorno</date> 
+                <lb/>
+                sulla riva del fosso presso la Scesa.</said>
+              <lb/>
+            </ab>
+            <ab xml:id="Paragrafo10_PoveroCane">
+              <said who="#P_Rocco" aloud="true">— Fu trovato morto?</said>
+              <lb/>
+              — <said who="#P_Battistone" aloud="true">È stato un colpo di sole?</said> — chiese <persName ref="#P_Battistone">Battistone</persName> ri-
+              <lb break="no"/>
+              dendo.
+              <lb/>
+              — <said who="#P_Giacotto" aloud="true"><persName ref="#P_Pattina">Pattina</persName> era mezzo matto dalla <term type="theme">pellagra</term> — disse <persName ref="#P_Giacotto">Gia-
+                  <lb break="no"/>
+                  cotto</persName> — e ballava per la strada come se suonassero l'or-
+                <lb break="no"/>
+                ganetto. Dicono che ballasse di febbre...</said>
+              <lb/>
+              <said who="#P_tutti" aloud="true">— E poi?</said>
+              <lb/>
+              <said who="#P_Giacotto" aloud="true">— E poi, quando fu presso la Scesa vide l'acqua della</said> 
+              <lb/>
+              gora, che era quasi gelata, si levò le scarpe e i calzoni e 
+              <lb/>
+              si buttò dentro, ma pestò la testa contro uno spigolo di 
+              <lb/>
+              sasso del ponte. Io l'ho visto dopo, perchè rimase sul colpo, 
+              <lb/>
+              e lo cervella...
+            </ab>
+            <ab xml:id="Paragrafo11_PoveroCane">
+              <lb/>
+              <said who="#P_Rocco" aloud="true">— Vuoi finirla, <addName>magra bestia</addName> che sei, colle tue storie?</said> 
+              <lb/>
+              urlò papà <persName ref="#P_Rocco">Rocco</persName>, facendo l'atto di buttare il vino in 
+              <lb/>
+              faccia al figliuolo. — S'egli è morto è perchè era giunta 
+              <lb/>
+              la sua ora, e quando giungerà la mia, anch'io tirerò le 
+              <lb/>
+              cuoia senza bisogno che il dottore, il sindaco e il sotto-
+              <lb break="no"/>
+              prefetto vengano a mettermi sulle tabelle della statistica.
+              <lb/>
+              <said who="#P_tutti" aloud="true">— Furono da voi questi signori ?</said>
+              <lb/>
+              <said who="#P_Rocco" aloud="true">— Bisognava vedere? <orgName ref="#O_Delegati">Delegati</orgName>, <orgName ref="#O_Carabinieri">carabinieri</orgName>, <orgName ref="#O_Dottori">dottori</orgName>, <orgName ref="#O_Speziali">spe-
+                  <lb break="no"/>
+                  ziali</orgName>; un reggimento.</said> Vollero il nome e il cognome del 
+              <lb/>
+              <persName ref="#P_Pattina">Pattina</persName>, età, condizione, quanto tempo fu malato, cos'ave-
+              <lb break="no"/>
+              va mangiato, cos'aveva bevuto o via discorrendo ab ! ab ! 
+              <lb/>
+              ci son dei matti a questo mondo. Esaminarono, il <term type="verbum">pan giallo</term> 
+              <lb/>
+              col microscopio... ah! ah!
+              <lb/>
+              <said who="#P_cane" aloud="true">— Uh! uh! uh! bub....</said>
+              <lb/>
+              <said who="#P_Rocco" aloud="true">— Cosa vuole questo cane?</said> — domandò a un tratto 
+              <lb/>
+              l'affittaiuolo, volgendosi al <persName ref="#P_Basolone">Basolone</persName>.
+              <lb/>
+              — Dopo che il <persName ref="#P_Pattina">Pattina</persName> morì, il suo cane non fa che 
+              <lb/>
+              correre innanzi e indietro dal ponte alla cascina. Si mette 
+              <lb/>
+              sul ponte, fiuta, raspa e, alzando il muso verso la Mornata, 
+              <lb/>
+              abbaia... ecco qua.
+            </ab>
+            <ab xml:id="Paragrafo12_PoveroCane">
+              <lb/>
+              Tutti ascoltarono.
+              <lb/>
+              Pareva il lamento di una turba sepolta sotto la neve: 
+              <lb/>
+              c'erano degli accenti umani dentro ai guaiti. Cosa voleva 
+              <lb/>
+              dire non so, ma a <persName ref="#P_Rocco">Rocco</persName> l'affittaiuolo facevano l'effetto di 
+              <lb/>
+              ranocchi nel ventre.
+              <lb/>
+              — È anche lui della lega — borbottò — è un cane che 
+              <lb/>
+              ha studiato anche lui. Come se la <term type="theme">pellagra</term> l'avessi inven-
+              <lb break="no"/>
+              tata io! Per fortuna che siam vecchi e abbiamo vuotato 
+              <lb/>
+              molte tazze col manico, se no, a sentirli, bisognerebbe 
+              <lb/>
+              piantare il riso nel vino e portar le cascine sul <placeName ref="#S_LDC">lago di Como</placeName>.
+              <lb/>
+              <said who="#P_cane" aloud="true">— Uh! uh! uh!</said>
+              <lb/>
+              <said who="#P_Celeste" aloud="true">— Mamma, mamma!</said> — strillò la piccola <persName ref="#P_Celeste">Celeste</persName>, na-
+              <lb break="no"/>
+              scondendosi il volto nel seno di lei. La mammina, pallida 
+              <lb/>
+              anch'essa, procurava, carezzandola, di persuaderla che era 
+              <lb/>
+              soltanto un cane laggiù che aveva <term type="theme">fame</term>; ma il cuore della 
+              <lb/>
+              fanciulla pare che non volesse credere. Infatti poco lungi 
+              <lb/>
+              dal cane v'era un morto, che non aveva più <term type="theme">fame</term>, ma che 
+              <lb/>
+              forse l'aveva avuta.
+              <lb/>
+              <said who="#P_Rocco" aloud="true">— Portategli da mangiare se ha <term type="theme">fame</term>, a quella bestia, </said>
+              <lb/>
+              — disse <persName ref="#P_Rocco">Rocco</persName>, agitandosi sulla sedia. <said who="#P_Rocco" aloud="true">— Qualche cosa de-</said>
+              <lb break="no"/>
+              v'essere rimasto in cucina anche per lui.
+            </ab>
+            <ab xml:id="Paragrafo13_PoveroCane">
+              <lb/>
+              Ma il <persName ref="#P_Basolone">Basolone</persName>, stralunando gli occhi, fece intendere 
+              <lb/>
+              che d'uscire a quell'ora, all'oscuro, fra la neve, non se ne 
+              <lb/>
+              sentiva il coraggio. Il cane non cessava d'ululare, e chi lo 
+              <lb/>
+              avesse veduto sul margine del ponte, col pelo irto e cogli 
+              <lb/>
+              occhi rossi, non so... ma si sarebbe fatti due segni di croce 
+              <lb/>
+              in una volta. <persName ref="#P_Rocco">Rocco</persName> l'affittaiuolo non sapeva nulla della 
+              <lb/>
+              trasmigrazione delle anime, nè aveva mai letto che al 
+              <lb/>
+              mondo fosse vissuto un <persName ref="#P_Pita">Pitagora</persName>, ma la voce del <persName ref="#P_Pattina">Pattina</persName> 
+              <lb/>
+              gli pareva bene d'udirla in quell'abbaio o erano i fumi del 
+              <lb/>
+              vino che gli andavano al capo?
+              <lb/>
+              Poiché <persName ref="#P_Basolone">Basolone</persName> non faceva segno di muoversi e la bam-
+              <lb break="no"/>
+              bina non ristava dal piangere, nè il cane dal far sentire 
+              <lb/>
+              il suo verso di morte, sorse in piedi <persName ref="#P_Battistone">Battistone</persName>, il secondo 
+              <lb/>
+              <choice><seg><orig>de'</orig><reg>dei</reg></seg></choice>figli di <persName ref="#P_Rocco">Rocco</persName>, e disse: Andrò io.
+            </ab>
+            <ab xml:id="Paragrafo14_PoveroCane">
+              <lb/>
+              Staccò dal camino un bel fucile a due canne e, mentre 
+              <lb/>
+              saliva le scale verso la sua stanza da letto, caricò bronto-
+              <lb break="no"/>
+              lando: Facciamo l'inchiesta.
+              <lb/>
+            </ab>
+            <ab xml:id="Paragrafo15_PoveroCane">
+              <persName ref="#P_Battistone">Battistone</persName>, fra i figli di <persName ref="#P_Rocco">Rocco</persName>, era il prediletto, perchè 
+              <lb/>
+              aveva « l'<term type="verbum">occhio alle cose</term>,» un occhio fisso che non sba-
+              <lb break="no"/>
+              gliava una rondine al volo. Aprì la finestra per dove era 
+              <lb/>
+              la vista sui campi, fino al ponte, che, scavalcava la gora
+              <lb/>
+              grigiastra fra due file di betulle secche.
+            </ab>
+            <ab xml:id="Paragrafo16_PoveroCane">
+              <lb/>
+              La campagna era tutta bianca come un lenzuolo o die-
+              <lb break="no"/>
+              tro i rami dello betulle si squarciava un poco di cielo per 
+              <lb/>
+              dare il passo alla luce della luna, che splendeva languida-
+              <lb break="no"/>
+              mente con tante punte di spillo nella stesa dei prati.
+            </ab>
+            <ab xml:id="Paragrafo17_PoveroCane" type="fine">
+              <lb/>
+              Il cane, che s'era accovacciato per frugare, alzò ancora 
+              <lb/>
+              una volta il muso e ritto sul dosso del ponte, colle orecchie 
+              <lb/>
+              tese, tremava tutto sotto il raggio della luna.
+              <lb/>
+              <persName ref="#P_Battistone">Battistone</persName> fissò gli occhi rossi e.... paf! uccise an-
+              <lb break="no"/>
+              che lui. 
+            </ab>              
+            <byline><persName type="real" ref="#P_EDM">Emilio De Marchi</persName></byline>
+            
+          </div>
+        </body>
+      </text>
+      <!--BIBLIOGRAFIA-->
+      <text xml:id="Bibliografia">
+        <body>
+          <div xml:id="div_bib">
+            <head rend="center">BIBLIOGRAFIA</head>
+            <ab xml:id="Bibliografia_1">
+              <persName ref="#P_MarioRapi">Mario Rapisardi</persName>. <hi rend="italic"><title type="work">Ricordanze</title></hi>, Versi. Terza edizione accre-
+              <lb/>
+              sciuta e corretta dall'Autore. — <placeName ref="#S_TO">Torino</placeName>, <orgName ref="#O_EL">E. Loescher</orgName>, <date when="1881">1881</date>. 
+              <lb/>
+              Un volume di versi, che si ristampa per la terza volta, in
+              <lb/>
+              <placeName ref="#S_IT">Italia</placeName>, non dev'esser certo <choice><seg><orig>de'</orig><reg>dei</reg></seg></choice>soliti. Se poi si bada che l'A. è 
+              <lb/>
+              il poeta di <hi rend="italic"><title type="work">Lucifero</title></hi>, il traduttore di <persName ref="#P_Catullo">Catullo</persName> o di <persName ref="#P_Lucrezio">Lucrezio</persName>, e 
+              <lb/>
+              che le <hi rend="italic"><title type="work">Ricordanze</title></hi> lo fecero conoscere la prima volta in Ita-
+              <lb break="no"/>
+              lia, si comprenderà perchè noi ci contentiamo d'un sem-
+              <lb break="no"/>
+              plice annunzio, e non diamo giudizi. Solo, a mostrare che 
+              <lb/>
+              il libro abbiamo voluto rileggerlo, per sapere quanto con-
+              <lb break="no"/>
+              tonosso di nuovo o di modificato, diremo schiettamente 
+              <lb/>
+              cho avremmo desiderato le mutazioni o correzioni fossero 
+              <lb/>
+              state più numerose e radicali, che in fatti non sieno. Qua e 
+              <lb/>
+              là rimangono ancora immagini, frasi, parole, che non atte-
+              <lb break="no"/>
+              stano lungo lavoro di lima. <choice><seg><abbr>Ne'</abbr><expan>Nei</expan></seg></choice> versi <hi rend="italic"><title type="work">A te sola</title></hi> notiamo: 
+              <lb/>
+              <quote>Te fra Tolette o belle, Che i tuoi fianchi incoronano, Gareg-
+                <lb break="no"/>
+                gianti donzelle</quote> ; — <quote>Mi assenti Dolce un sorriso a' timidi 
+                <lb/>
+                Del cor veleggiamenti</quote> — frasi che mancano di esattezza. 
+              <lb/>
+              L'<choice><seg><abbr>A.</abbr><expan>Autore</expan></seg></choice> chiede all'amata che gli dia un'aura dell'amor suo, ciò 
+              <lb/>
+              che pochi intenderanno, e chiede ancora <choice><seg><orig>de'</orig><reg>dei</reg></seg></choice> fiori, <choice><seg><orig>de'</orig><reg>dei</reg></seg></choice>quali 
+              <lb/>
+              vuol fare un serto, anzi <quote>un'<hi rend="italic">oasi</hi> che allieti il <hi rend="italic">suo</hi> deserto;</quote> 
+              <lb/>
+              ciò che sa di seicentismo. La poesia <hi rend="italic"><title type="work">ad una fanciulla inferma</title></hi> 
+              <lb/>
+              comincia così:
+              <lb/>
+              <quote>Sotto la bianca <hi rend="italic">coltrice</hi>
+                <lb/>
+                Del tuo polito letticiuol ti vidi:</quote>
+              <lb/>
+              è una improprietà, imperdonabile a chi certo non ignora il 
+              <lb/>
+              <quote>sotto coltre</quote> di <persName ref="#P_DA1">Dante</persName>, e il <quote>sulla deserta coltrice</quote> di 
+              <lb/>
+              <persName ref="#P_Manz">Manzoni</persName>. <choice><seg><abbr>Ne'</abbr><expan>Nei</expan></seg></choice> versi <hi rend="italic"><title type="work">ad un segatore di pietre</title></hi>, leggiamo:
+              <lb/>
+              <quote>Da le mie ciglia si dilegua il miele
+                <lb/>
+                Del dolcissimo sonno mattutino.</quote>
+              <lb/>
+              che ci sembra una metafora un po' arrischiata: vi leggia-
+              <lb break="no"/>
+              mo anche:
+              <lb/>
+              <quote>E de l'onesta poverezza i pianti.</quote>
+              <lb/>
+              Nell'<hi rend="italic"><title type="work">Ultimo autunno</title></hi> si ode
+              <lb/>
+              <quote>Dal vecchio campanile
+                <lb/>
+                <hi rend="italic">Russar</hi> querulo il gufo.</quote>
+              <lb/>
+              Questi o simili nei avremmo voluto non ritrovare nelle 
+              <lb/>
+              <hi rend="italic">Ricordanze</hi>, come ci sarebbe del pari piaciuto non ritrovarvi 
+              <lb/>
+              la <hi rend="italic"><title type="work">Francesca da Rimini</title></hi>, il più grosso peccato giovanile che 
+              <lb/>
+              <persName ref="#P_MarioRapi">Mario Rapisardi</persName> abbia commesso, o che difficilmente gli 
+              <lb/>
+              sarà mai perdonato.
+              
+            </ab>
+            <ab xml:id="Bibliografia_2_1">
+              <persName ref="#P_AntoManno">Antonio Manno</persName>, <hi rend="italic"><title type="work">Alcuni cataloghi di antiche librerie piemon-
+                  <lb break="no"/>
+                  tesi</title></hi>. — <placeName ref="#S_TO">Torino</placeName>, <orgName ref="#O_SR">stamperia Reale</orgName>, <date when="1880">1880</date>.
+              <lb/>
+              <persName ref="#P_LLodi">Luigi Lodi</persName>, <hi rend="italic"><title type="work">Catalogo dei Godici manoscritti posseduti dal 
+                  <lb/>
+                  marchese <persName ref="#P_GGampori">Giuseppe Gampori</persName></title></hi>; parte terza, <date when="1600">secolo XVII</date>.— 
+              <lb/>
+              <placeName ref="#S_MO">Modena</placeName>, <orgName ref="#O_Toschi">Toschi</orgName>, <date when="1880">1880</date>.
+              <lb/>
+              Se in <placeName ref="#S_IT">Italia</placeName> si avesse maggior numero di Cataloghi di 
+              <lb/>
+              manoscritti, è evidente che gli studiosi lavorerebbero più 
+              <lb/>
+              e meglio di quel che non facciano e possan fare. Perciò 
+              <lb/>
+              ogni qualvolta ci è accaduto di vedere nuove pubblicazioni 
+              <lb/>
+              di Cataloghi di codici subito ci siamo affrettati ad annun-
+              <lb break="no"/>
+              ziarle, perchè se ne diffondesse maggiormente la notizia, e 
+              <lb/>
+              gli autori non fossero defraudati della debita lode. Ora ne 
+              <lb/>
+              annunziamo due: una delle quali appartiene al passato, 
+              <lb/>
+              l'altra al presente. Ma se la pubblicazione del <persName ref="#P_AntoManno">Manno</persName> ri-
+              <lb break="no"/>
+              guarda antiche collezioni, ora sperdute, non è meno perciò 
+              <lb/>
+              importante alla storia; e se anzi, di simili inventari di 
+              <lb/>
+              antiche biblioteche un maggior numero fosse noto, se ne, 
+              <lb/>
+              vantaggerebbe la cognizione della cultura propria ai nostri 
+              <lb/>
+              vecchi. Le biblioteche piemontesi, delle quali il <persName ref="#P_AntoManno">Manno</persName> ci 
+              <lb/>
+              dà notizia, sono del <date when="1278">1278</date>, del <date when="1475">1475</date>, del <date when="1539">1539</date>, del <date when="1561">1561</date>: l'ul-
+              <lb break="no"/>
+              tima soltanto di libri a stampa. Il <persName ref="#P_AntoManno">Manno</persName>, che è un appas-
+              <lb break="no"/>
+              sionato bibliofilo, ha con opportune annotazioni illustrato 
+              <lb/>
+              le edizioni veramente rare dell'ultima biblioteca: ma qual-
+              <lb break="no"/>
+              che utile annotazione poteva farsi anello ai titoli di opere 
+              <lb/>
+              rammentate nello altre, e specialmente nella seconda. Vi 
+              <lb/>
+              troviamo infatti indicati (p. 18) alcuni scritti in <hi rend="italic"><foreign xml:lang="la">vulgaribus 
+                  <lb/>
+                  versis et in versibus</foreign></hi>, che è davvero peccato sieno andati per-
+              <lb break="no"/>
+              duti, benché taluni non ci sieno ignoti per altri manoscritti.
+              <lb/>
+              Tale sarebbe il <foreign xml:lang="la"><title type="work">De centum civilitatibus in mensa servandis</title></foreign>, che 
+              <lb/>
+              è un curioso poemetto di <persName ref="P_BDRiva">Bonvesin da Riva</persName>, e forse sono 
+              <lb/>
+              cosa sua anche gli altri poemetti di argomento religioso, 
+              <lb/>
+              che trovansi in quegli stessi <hi rend="italic"><foreign xml:lang="la">quamplurimos quinternos</foreign></hi>.
+              <lb/>
+              Buona cosa sarebbe sapere dove sieno andati a finire 
+              <lb/>
+              questi codici che nel <date when="1475">1475</date> erano donati all'<orgName type="institution">ospedale di 
+                <lb/>
+                <placeName ref="#S_BDA">Borgo d'Ale</placeName></orgName>: e poiché <hi rend="italic"><foreign xml:lang="la">habent sua fata libelli</foreign></hi>, buono è anche 
+              <lb/>
+              che vi sia tuttora qualcheduno che consacri ricchezze e 
+              <lb/>
+              tempo a raccoglier antichi codici, prima che sieno distrutti, 
+              <lb/>
+              o vadano ad arricchire le collezioni d'oltremonte e d'oltre-
+              <lb break="no"/>
+              mare. Fra gli eruditi italiani tiene cospicuo luogo il mar-
+              <lb break="no"/>
+              chese <persName ref="P_GGampori">Giuseppe Gampori</persName>, che è anche fortunato e liberale 
+              <lb/>
+              collettore di autografi o di manoscritti. Di questi ultimi il 
+              <lb/>
+              signor <persName ref="#P_LLodi">Lodi</persName>, vicobibliotecario della Estense, ci dà il Catalogo, 
+              <lb/>
+              e questa che oggi annunziamo è la terza parte, che com-
+              <lb break="no"/>
+              prende dal <choice><seg><abbr>n.</abbr><expan>numero</expan></seg></choice>° 210 al 728 i codici del <date when="1600">secolo XVII</date>. A noi 
+              <lb/>
+              appena è dato citare qualche articolo per far vedere la 
+              <lb/>
+              varietà e l'importanza di siffatta privata collezione, il pos-
+              <lb break="no"/>
+              sessore della quale, mostra, anche con questa sola pubbli-
+              <lb break="no"/>
+              cazione del Catalogo, di volere giovare ai veri studiosi. 
+              <lb/>
+              Imitabile esempio a molti patrizi, che avendo eredato dagli 
+              <lb/>
+              avi di simili ricchezze, nè le curano nè permettono che altri 
+              <lb/>
+              se ne giovi, per non diminuirne il pregio al dì dell'agognata 
+              <lb/>
+              vendita! Citiamo intanto alla rinfusa: n° 259, <hi rend="italic"><title type="work">Opere varie</title></hi> del 
+              <lb/>
+              <persName ref="#P_Campanella">Campanella</persName>; n° 259-62, <hi rend="italic"><title type="work">Canzonette varie</title></hi> spirituali e profane 
+              <lb/>
+              del <date when="1500">secolo XVI</date> e <date when="1600">XVII</date>;'n° 284, <hi rend="italic"><title type="work">Il Corago</title></hi>, trattato sul met-
+              <lb break="no"/>
+              ter in scena lo composizioni drammatiche, che sarebbe utile 
+              <lb/>
+              paragonare con altro trattato consimile, ma del <date when="1400">secolo ante-
+                <lb break="no"/>
+                cedente</date>, che trovasi nella De Rossiana di Parma, ed ambe
+              <lb/>
+              due ci darebbero notizio rilevanti sull'antico assetto scenico; 
+              <lb/>
+              n° 302, <persName ref="#P_Cresci">Cresci Migliore</persName>, <hi rend="italic"><title type="work">Storia d'Italia</title></hi> dal <date when="1526">1526</date> al <date when="1546">1546</date>; 
+              <lb/>
+              n° 307, <hi rend="italic"><title type="work">Cronica di Sicilia</title></hi>, in dialetto ; n° 309, <hi rend="italic"><title type="work">Dialoghi</title></hi> scien-
+              <lb break="no"/>
+              tifici di un discepolo del <persName ref="#P_Marchetti">Marchetti</persName>; n° 409, <hi rend="italic"><title type="work">Storia di Lucca</title></hi> 
+              <lb/>
+              del <choice><seg><abbr>p.</abbr><expan>pagina</expan></seg></choice><persName ref="#P_AGiusti">Aless. Giusti</persName>; n° 460, <hi rend="italic"><title type="work">Matricola dello studio bolognese 
+                  <lb/>
+                  dal <date when="1553">1553</date> al <date when="1613">1613</date></title></hi>; <choice><seg><abbr>n.</abbr><expan>numero</expan></seg></choice>° 463 <hi rend="italic"><title type="work">Lettere </title></hi>del card. <persName ref="#P_Mazzarino">Mazzarino</persName>; n° 553, 
+              <lb/>
+              <hi rend="italic"><title type="work">Miscellanea storica fiorentina</title></hi>, interessante per la vita privata 
+              <lb/>
+              o pubblica; n° 616, <hi rend="italic"><title type="work">Relazioni politiche</title></hi> di varii stati d'Italia 
+              <lb/>
+              e di Europa; n° 677-80, Lettere del Testi e al Testi; n° 693-4,
+              <lb/>
+              <hi rend="italic"><title type="work">Scritti varii</title></hi> del viaggiatore <persName ref="#P_PDV">Pietro Della Valle</persName> ecc. Insom-
+            </ab>
+            <ab xml:id="Bibliografia_2_2">
+              <lb/>
+              ma, questa cospicua collezione, la quale già ha fornito ma-
+              <lb break="no"/>
+              teria di utili e curiose pubblicazioni al possessore, special-
+              <lb break="no"/>
+              mente per la parte degli autografi, <choice><seg><orig>de'</orig><reg>dei</reg></seg></choice> quali quelli del 
+              <lb/>
+              <date when="1600">secolo XVII</date> soltanto ascendono oltre i seimila, è degna di 
+              <lb/>
+              esser conosciuta ed apprezzata, e ben ha fatto il <persName ref="#P_GGampori">Gampori</persName> 
+              <lb/>
+              a favorire la compilazione e pubblicazione del Catalogo.
+            </ab>
+          </div>
+        </body>
+      </text>
+      
+      <text xml:id="Notizie">
+        <body>
+          <div xml:id="div_not">
+            <head rend="center">NOTIZIE</head>
+            <ab xml:id="Notizie_1">
+              <persName ref="#P_RP"><choice><seg><abbr>R.</abbr><expan>?</expan></seg></choice> Peiper</persName>, professore a <placeName ref="#S_Bres">Breslavia</placeName>, ha pubblicato un dotto scritto 
+              <lb/>
+              sulla <quote>storia delle opere di <persName ref="#P_Au">Ausonio</persName></quote>. <persName ref="#P_FS"><choice><seg><abbr>F.</abbr><expan>?</expan></seg></choice> Seiler</persName> ne rende conto nella 
+              <lb/>
+              <hi rend="italic"><title type="periodical">Deutsche Literaturzeitung</title></hi> (dicembre) e approva l'opinione dell'autore se-
+              <lb break="no"/>
+              condo la quale 31 epigrammi attribuiti all'<persName ref="#P_Au">Ausonio</persName> sarebbero stati scritti 
+              <lb/>
+              da un italiano del <date when="1400">secolo XV</date>, probabilmente da <persName ref="#P_GMerula">Giorgio Merula</persName>.
+            </ab>
+            <ab xml:id="Notizie_2">
+              — La storia sulla <quote>Migrazione dei popoli</quote> scritta da <persName ref="#P_EDW">Edoardo di 
+                <lb/>
+                Wieterscheim</persName> è stata rifusa completamente da <persName ref="#P_FB">Felice Dahn</persName> ; questa se-
+              <lb break="no"/>
+              conda edizione può considerarsi come un'opera nuova. (<title type="periodical">Magasin</title>)
+            </ab>
+          </div>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI>
